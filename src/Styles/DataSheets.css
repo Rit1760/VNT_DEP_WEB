@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_DataSheets{
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+.container1_DataSheets{
+    width: 100%;
+    padding: 9rem 0rem;
+    background: #ff6600;
+    margin-top: 9rem;
+}
+.row1_DataSheets{
+    display: block;
+    column-gap: 30px;
+}
+.col1_DataSheets{
+width: 50%;
+padding-bottom: 90px;
+margin-left: 20px;
+}
+.col2_DataSheets{
+width: 50%;
+margin-left: 20px;
+}
+.col1_DataSheets a{
+padding: 10px 30px;
+color: #fff;
+  font-family: 'Lato',sans-serif;
+text-decoration: none;
+border: 1px solid;
+border-radius: 10px;
+}
+.col2_DataSheets a{
+padding: 10px 30px;
+color: #fff;
+  font-family: 'Lato',sans-serif;
+text-decoration: none;
+border: 1px solid;
+border-radius: 10px;
+}
+.col1_DataSheets a:hover{
+background: #000;
+color: #fff;
+border: none;
+}
+.col2_DataSheets a:hover{
+background: #000;
+color: #fff;
+border: none;
+}

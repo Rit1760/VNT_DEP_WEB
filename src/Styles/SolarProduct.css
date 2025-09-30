@@ -1,0 +1,708 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.main1_SolarProduct{
+margin: 0 auto;
+overflow-x: hidden;
+}
+
+/* container1 start  */
+
+.container1_SolarProduct{
+width: 100%;
+margin-top: 140px;
+}
+.col1_SolarProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_SolarProduct h4{
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #7b7878;
+    margin: 0px;
+    padding: 0px;
+}
+.col1_SolarProduct h3{
+    width: 100%;
+text-align: center;
+    font-family: 'Lato', sans-serif;
+font-size: 62px;
+margin-left: 0%;
+font-weight: 400;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 40px;
+line-height: 1.4em;
+}
+
+/* containmer1 end  */
+
+
+/* container2 start  */
+.container2_SolarProduct{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_SolarProduct{
+    display: flex;
+}
+.col2_SolarProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col3_SolarProduct {
+    background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col2_SolarProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col2_SolarProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col3_SolarProduct img{
+    margin-left: 30%;
+}
+.col2_SolarProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container2 end  */
+
+
+
+/* container3 start  */
+
+.container3_SolarProduct{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_SolarProduct{
+    display: flex;
+}
+
+
+.col4_SolarProduct{
+    background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col5_SolarProduct {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.col5_SolarProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col5_SolarProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col4_SolarProduct img{
+    margin-left: 30%;
+}
+
+
+.col5_SolarProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container3 end  */
+
+/* container4 start  */
+.container4_SolarProduct{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row4_SolarProduct{
+    display: flex;
+}
+
+
+.col6_SolarProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col7_SolarProduct{
+    background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+
+.col6_SolarProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col6_SolarProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col7_SolarProduct img{
+    margin-left: 30%;
+}
+.col6_SolarProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container4 end  */
+
+
+
+/* container5 start  */
+.container5_SolarProduct{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row5_SolarProduct{
+    display: flex;
+}
+.col8_SolarProduct{
+     background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col9_SolarProduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.col9_SolarProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col9_SolarProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col8_SolarProduct img{
+    margin-left: 30%;
+}
+.col9_SolarProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container5 end  */
+
+
+
+
+
+
+/* cont1 toggle start  */
+.cont2_SolarProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_SolarProduct_toggle{
+     display: flex;
+}
+.col1_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_SolarProduct_toggle img{
+    margin-left: 30px;
+}
+.col2_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_SolarProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col2_SolarProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col2_SolarProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+    margin-left: 30px;
+    font-size: 20px;
+}
+/* col1 toggle end  */
+
+
+
+
+/* cont2 toggle start  */
+
+.cont3_SolarProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_SolarProduct_toggle{
+     display: flex;
+}
+.col3_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col3_SolarProduct_toggle img{
+    margin-left: 30px;
+}
+.col4_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col4_SolarProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+
+.col4_SolarProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col4_SolarProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+/* cont2 toggle end  */
+
+
+/* cont3 toggle start  */
+.cont4_SolarProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row4_SolarProduct_toggle{
+     display: flex;
+}
+.col6_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col6_SolarProduct_toggle img{
+    margin-left: 30px;
+}
+.col7_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col7_SolarProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col7_SolarProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col7_SolarProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+/* cont3 toggle end  */
+
+
+
+/* cont4 toggle start */
+.cont5_SolarProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row5_SolarProduct_toggle{
+     display: flex;
+}
+.col8_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col8_SolarProduct_toggle img{
+    margin-left: 30px;
+}
+.col9_SolarProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col9_SolarProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col9_SolarProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col9_SolarProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont4 toggle end  */
+
+
+
+
+
+
+/* container6 start  */
+.container6_SolarProduct{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+    background: #e2e2e7;
+    padding: 90px 0px;
+}
+.col10_SolarProduct{
+    width: 90%;
+    margin: 0 auto;
+}
+.col10_SolarProduct h2{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    margin-left: 10%;
+    font-weight: 400;
+}
+.col10_SolarProduct a{
+    font-family: 'Lato', sans-serif;
+   margin-left: 43%;
+   border: none;
+   padding: 15px 40px;
+   font-size: 26px;
+   background: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 30px;
+}
+/* container6 end  */
+
+
+
+
+
+/* ================= Responsive Design ================= */
+
+@media screen and (max-width: 1200px) {
+  .col1_SolarProduct h3 {
+    font-size: 48px;
+  }
+
+  .col2_SolarProduct h3,
+  .col5_SolarProduct h3,
+  .col6_SolarProduct h3,
+  .col9_SolarProduct h3 {
+    font-size: 42px;
+  }
+
+  .col10_SolarProduct h2 {
+    font-size: 46px;
+  }
+
+  .col2_SolarProduct h5,
+  .col5_SolarProduct h5,
+  .col6_SolarProduct h5,
+  .col9_SolarProduct h5 {
+    width: 25%;
+  }
+
+  .col10_SolarProduct a {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row2_SolarProduct,
+  .row3_SolarProduct,
+  .row4_SolarProduct,
+  .row5_SolarProduct,
+  .row2_SolarProduct_toggle,
+  .row3_SolarProduct_toggle,
+  .row4_SolarProduct_toggle,
+  .row5_SolarProduct_toggle {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col2_SolarProduct,
+  .col3_SolarProduct,
+  .col4_SolarProduct,
+  .col5_SolarProduct,
+  .col6_SolarProduct,
+  .col7_SolarProduct,
+  .col8_SolarProduct,
+  .col9_SolarProduct,
+  .col1_SolarProduct_toggle,
+  .col2_SolarProduct_toggle,
+  .col3_SolarProduct_toggle,
+  .col4_SolarProduct_toggle,
+  .col6_SolarProduct_toggle,
+  .col7_SolarProduct_toggle,
+  .col8_SolarProduct_toggle,
+  .col9_SolarProduct_toggle {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .col3_SolarProduct img,
+  .col4_SolarProduct img,
+  .col7_SolarProduct img,
+  .col8_SolarProduct img,
+  .col1_SolarProduct_toggle img,
+  .col3_SolarProduct_toggle img,
+  .col6_SolarProduct_toggle img,
+  .col8_SolarProduct_toggle img {
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+  }
+
+  .col2_SolarProduct h5,
+  .col5_SolarProduct h5,
+  .col6_SolarProduct h5,
+  .col9_SolarProduct h5 {
+    width: 40%;
+    margin-left: 0;
+  }
+
+  .col10_SolarProduct a {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto 0;
+  }
+
+  .col10_SolarProduct h2 {
+    margin-left: 0;
+    width: 100%;
+    font-size: 36px;
+  }
+
+  .col2_SolarProduct_toggle li,
+  .col4_SolarProduct_toggle li,
+  .col7_SolarProduct_toggle li,
+  .col9_SolarProduct_toggle li {
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .col2_SolarProduct_toggle p,
+  .col4_SolarProduct_toggle p,
+  .col7_SolarProduct_toggle p,
+  .col9_SolarProduct_toggle p {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col1_SolarProduct h3 {
+    font-size: 36px;
+  }
+
+  .col2_SolarProduct h3,
+  .col5_SolarProduct h3,
+  .col6_SolarProduct h3,
+  .col9_SolarProduct h3 {
+    font-size: 32px;
+  }
+
+  .col2_SolarProduct h5,
+  .col5_SolarProduct h5,
+  .col6_SolarProduct h5,
+  .col9_SolarProduct h5 {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  .col10_SolarProduct h2 {
+    font-size: 30px;
+  }
+
+  .col10_SolarProduct a {
+    font-size: 20px;
+    padding: 12px 30px;
+  }
+
+  .col2_SolarProduct_toggle h3,
+  .col4_SolarProduct_toggle h3,
+  .col7_SolarProduct_toggle h3,
+  .col9_SolarProduct_toggle h3 {
+    font-size: 28px;
+  }
+
+  .col2_SolarProduct_toggle p,
+  .col4_SolarProduct_toggle p,
+  .col7_SolarProduct_toggle p,
+  .col9_SolarProduct_toggle p {
+    font-size: 18px;
+  }
+
+  .col2_SolarProduct_toggle li,
+  .col4_SolarProduct_toggle li,
+  .col7_SolarProduct_toggle li,
+  .col9_SolarProduct_toggle li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col1_SolarProduct h3 {
+    font-size: 26px;
+  }
+
+  .col1_SolarProduct h4 {
+    font-size: 20px;
+  }
+
+  .col2_SolarProduct h3,
+  .col5_SolarProduct h3,
+  .col6_SolarProduct h3,
+  .col9_SolarProduct h3 {
+    font-size: 24px;
+  }
+
+  .col10_SolarProduct h2 {
+    font-size: 24px;
+  }
+
+  .col10_SolarProduct a {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .col2_SolarProduct_toggle p,
+  .col4_SolarProduct_toggle p,
+  .col7_SolarProduct_toggle p,
+  .col9_SolarProduct_toggle p {
+    font-size: 16px;
+  }
+
+  .col2_SolarProduct_toggle li,
+  .col4_SolarProduct_toggle li,
+  .col7_SolarProduct_toggle li,
+  .col9_SolarProduct_toggle li {
+    font-size: 14px;
+  }
+}

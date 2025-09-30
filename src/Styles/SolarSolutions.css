@@ -1,0 +1,244 @@
+.main1_SolarSolutions{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+/* container1 start  */
+
+  .container1_SolarSolutions {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/solar_solution1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.container1_SolarSolutions::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_SolarSolutions {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_SolarSolutions h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+
+/* container1 end  */
+
+
+
+/* container2 start  */
+.container2_SolarSolution{
+    width: 100%;
+    margin-top: 120px;
+}
+.col2_SolarSolution{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_SolarSolution h2{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-weight: 400;
+line-height: 1.4em;
+font-size: 52px;
+}
+.col2_SolarSolution p {
+    text-align: center;
+    color: #72747d;
+    width: 100%;
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+}
+/* container2 end  */
+
+
+
+/* container3 start  */
+
+.container3_SolarSolution{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+.row1_SolarSolution{
+    display: flex;
+}
+.col3_SolarSolution{
+width: 50%;
+}
+.col3_SolarSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col4_SolarSolution{
+width: 50%;
+}
+.col4_SolarSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.row2_SolarSolution{
+    display: flex;
+    margin-top: 80px;
+}
+.col5_SolarSolution{
+width: 50%;
+}
+.col5_SolarSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col6_SolarSolution{
+width: 50%;
+}
+.col6_SolarSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+/* container3 end  */
+
+
+
+
+/* ========== Responsive Design for Solar Solutions ========== */
+
+@media screen and (max-width: 1200px) {
+  .col1_SolarSolutions h3,
+  .col2_SolarSolution h2 {
+    font-size: 46px;
+  }
+
+  .col2_SolarSolution p {
+    font-size: 22px;
+  }
+
+  .col3_SolarSolution h3,
+  .col4_SolarSolution h3,
+  .col5_SolarSolution h3,
+  .col6_SolarSolution h3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row1_SolarSolution,
+  .row2_SolarSolution {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col3_SolarSolution,
+  .col4_SolarSolution,
+  .col5_SolarSolution,
+  .col6_SolarSolution {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .container3_SolarSolution {
+    max-width: 90%;
+  }
+
+  .col2_SolarSolution {
+    width: 80%;
+  }
+
+  .col2_SolarSolution h2 {
+    font-size: 38px;
+  }
+
+  .col2_SolarSolution p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container1_SolarSolutions {
+    height: auto;
+    padding: 80px 20px;
+    background-position: top;
+  }
+
+  .col1_SolarSolutions h3 {
+    font-size: 34px;
+    padding: 0 10px;
+  }
+
+  .col2_SolarSolution h2 {
+    font-size: 32px;
+  }
+
+  .col2_SolarSolution p {
+    font-size: 18px;
+  }
+
+  .col3_SolarSolution h3,
+  .col4_SolarSolution h3,
+  .col5_SolarSolution h3,
+  .col6_SolarSolution h3 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col1_SolarSolutions h3 {
+    font-size: 26px;
+  }
+
+  .col2_SolarSolution h2 {
+    font-size: 26px;
+  }
+
+  .col2_SolarSolution p {
+    font-size: 16px;
+  }
+
+  .col3_SolarSolution h3,
+  .col4_SolarSolution h3,
+  .col5_SolarSolution h3,
+  .col6_SolarSolution h3 {
+    font-size: 18px;
+  }
+
+  .container3_SolarSolution {
+    margin-top: 100px;
+  }
+}

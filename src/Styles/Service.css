@@ -1,0 +1,506 @@
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.main1_services{
+margin: 0 auto;
+} 
+
+
+/* container1 services  */
+ .container1_services{
+    width: 100%;
+    max-width: 97%;
+    height: 100vh;
+    background: url("/../Images/info-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+margin: 0 auto;
+border-radius: 30px;
+} 
+
+
+/* container1 services end  */
+
+
+/* container2 services start  */
+
+ .container2_services{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.col1_services{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_services h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col1_services p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #72747d;
+} 
+/* container2 services end  */
+
+
+
+/* container3 srvices start  */
+
+ .container3_services {
+    width: 100%;
+    max-width: 80%;
+    margin: 121px auto 0;
+}
+.row2_services{
+    display: flex;
+    column-gap: 20px;
+}
+.col2_services{
+    width: 33%;
+    margin: 0 auto;
+}
+.col3_services{
+    margin: 0 auto;
+    width: 33%;
+}
+.col4_services{
+    margin: 0 auto;
+    width: 33%;
+}
+.col2_services h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col3_services h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col4_services h3{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+#svg1{
+    margin-left: 45%;
+}
+#svg2{
+    margin-left: 45%;
+
+}
+#svg3{
+    margin-left: 45%;
+
+} 
+/* container3 services end  */
+
+
+/* container4 serviuces start  */
+ .container4_services{
+    width: 100%;
+    margin-top: 5rem;
+    background: #19202a;
+}
+.col5_services{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+} 
+
+/* row4 services start */
+ .row4_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+.col6_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col7_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col6_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col6_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row4 services end  */
+
+
+
+/* row5 services start  */
+ .row5_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+}
+.col8_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col9_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col9_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col9_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row5 services end  */
+
+/* row6 services start  */
+ .row6_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+}
+.col10_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col11_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col10_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col10_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+
+/* row6 services end  */
+
+
+/* row7 services start  */
+ .row7_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+}
+
+.col12_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col13_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col13_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col13_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row7 services end  */
+
+/* row8 services start  */
+ .row8_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+}
+
+.col14_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col15_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col14_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col14_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row8 services end  */
+
+/* row9 services start  */
+ .row9_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+}
+
+.col16_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col17_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col17_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col17_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row9 services end  */
+
+/* row10 services start  */
+ .row10_services{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 140px;
+    padding-bottom: 70px;
+}
+
+.col18_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col19_services{
+    width: 30%;
+    margin: 0 auto;
+}
+.col18_services h4{
+    font-family: 'Lato', sans-serif;
+color: #fff;
+font-size:22px;
+}
+.col18_services p{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    line-height: 1.4em;
+    font-size: 20px;
+} 
+/* row10 services end  */
+
+/* container4 services end  */
+
+
+/* container5 services5 start  */
+
+ .container5_services{
+    width: 100%;
+    max-width: 97%;
+    margin: 0 auto;
+   background: linear-gradient(#000000, #542405);
+   border-radius: 30px;
+   padding-bottom: 30px;
+}
+.col20_services{
+    width: 70%;
+    margin: 0 auto;
+}
+.col20_services h3{
+text-align: center;
+color: #fff;
+font-size: 52px;
+    font-family: 'Lato', sans-serif;
+padding-top: 80px;
+}
+.col20_services p{
+    width: 70%;
+color: #fff;
+text-align: center;
+margin-left: 210px;
+font-size: 22px;
+    font-family: 'Lato', sans-serif;
+padding-bottom: 30px;
+}
+.col21_services{
+    width: 80%;
+    margin: 0 auto;
+    background: url("/../Images/net-zero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 185px 0px;
+    border-radius: 30px;
+} 
+/* container services5 end  */
+
+
+
+
+
+
+
+
+/* ================= Responsive Design ================= */
+
+@media screen and (max-width: 1200px) {
+  .col1_services h2 {
+    font-size: 46px;
+  }
+
+  .col1_services p {
+    font-size: 20px;
+  }
+
+  .col2_services h3,
+  .col3_services h3,
+  .col4_services h3 {
+    font-size: 28px;
+  }
+
+  .col5_services {
+    font-size: 28px;
+  }
+
+  .col20_services h3 {
+    font-size: 44px;
+  }
+
+  .col20_services p {
+    font-size: 20px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row2_services,
+  .row4_services,
+  .row5_services,
+  .row6_services,
+  .row7_services,
+  .row8_services,
+  .row9_services,
+  .row10_services {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .col2_services,
+  .col3_services,
+  .col4_services,
+  .col6_services,
+  .col7_services,
+  .col8_services,
+  .col9_services,
+  .col10_services,
+  .col11_services,
+  .col12_services,
+  .col13_services,
+  .col14_services,
+  .col15_services,
+  .col16_services,
+  .col17_services,
+  .col18_services,
+  .col19_services {
+    width: 90%;
+  }
+
+  #svg1,
+  #svg2,
+  #svg3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .col20_services p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col1_services h2 {
+    font-size: 36px;
+  }
+
+  .col1_services p {
+    font-size: 18px;
+  }
+
+  .col5_services {
+    font-size: 24px;
+    padding: 40px 10px 10px;
+  }
+
+  .col20_services h3 {
+    font-size: 36px;
+  }
+
+  .col20_services p {
+    font-size: 18px;
+  }
+
+  .col21_services {
+    padding: 200px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col1_services h2 {
+    font-size: 28px;
+  }
+
+  .col1_services p {
+    font-size: 16px;
+  }
+
+  .col5_services {
+    font-size: 20px;
+  }
+
+  .col20_services h3 {
+    font-size: 28px;
+  }
+
+  .col20_services p {
+    font-size: 16px;
+  }}

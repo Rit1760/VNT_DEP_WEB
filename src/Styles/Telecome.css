@@ -1,0 +1,375 @@
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_TelecomeSolution{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+ 
+
+
+  .container1_TelecomeSolution {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/telecomebanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.container1_TelecomeSolution::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_TelecomeSolution {
+    z-index: 2; 
+
+    padding: 20px;
+}
+
+.col1_TelecomeSolution h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+
+
+/* container2 start  */
+
+
+
+.container2_TelecomeSolution{
+    width: 100%;
+    margin-top: 120px;
+}
+.col2_TelecomeSolution{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_TelecomeSolution h3{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-weight: 400;
+line-height: 1.4em;
+font-size: 56px;
+}
+.col2_TelecomeSolution p{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+text-align: center;
+    color: #72747d;
+        font-size: 18px;
+    line-height: 1.3em;
+
+}
+/* container2 end  */
+
+
+
+
+/* container3 start  */
+.container3_TelecomeSolution{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+.row2_TelecomeSolution{
+    display: flex;
+}
+.col3_TelecomeSolution{
+width: 50%;
+}
+.col3_TelecomeSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col4_TelecomeSolution{
+width: 50%;
+}
+.col4_TelecomeSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.row3_TelecomeSolution{
+    display: flex;
+    margin-top: 80px;
+}
+.col5_TelecomeSolution{
+width: 50%;
+}
+.col5_TelecomeSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col6_TelecomeSolution{
+width: 50%;
+}
+.col6_TelecomeSolution h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+/* container3 end  */
+
+
+
+
+/* 🌐 Responsive Design for Telecome Solution */
+
+/* 📱 Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+  .container1_TelecomeSolution {
+    height: auto;
+    border-radius: 0;
+    padding: 80px 20px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .col1_TelecomeSolution h3 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .col2_TelecomeSolution {
+    width: 90%;
+  }
+
+  .col2_TelecomeSolution h3 {
+    font-size: 32px;
+  }
+
+  .col2_TelecomeSolution p {
+    font-size: 18px;
+  }
+
+  .container3_TelecomeSolution {
+    max-width: 95%;
+    margin-top: 100px;
+  }
+
+  .row2_TelecomeSolution,
+  .row3_TelecomeSolution {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .col3_TelecomeSolution,
+  .col4_TelecomeSolution,
+  .col5_TelecomeSolution,
+  .col6_TelecomeSolution {
+    width: 100%;
+  }
+
+  .col3_TelecomeSolution h3,
+  .col4_TelecomeSolution h3,
+  .col5_TelecomeSolution h3,
+  .col6_TelecomeSolution h3 {
+    font-size: 24px;
+  }
+}
+
+/* 💻 Tablet Devices (601px to 900px) */
+@media (max-width: 900px) {
+  .col1_TelecomeSolution h3 {
+    font-size: 42px;
+  }
+
+  .col2_TelecomeSolution {
+    width: 80%;
+  }
+
+  .col2_TelecomeSolution h3 {
+    font-size: 42px;
+  }
+
+  .col2_TelecomeSolution p {
+    font-size: 22px;
+  }
+
+  .container3_TelecomeSolution {
+    max-width: 90%;
+  }
+
+  .col3_TelecomeSolution,
+  .col4_TelecomeSolution,
+  .col5_TelecomeSolution,
+  .col6_TelecomeSolution {
+    width: 100%;
+  }
+
+  .row2_TelecomeSolution,
+  .row3_TelecomeSolution {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col3_TelecomeSolution h3,
+  .col4_TelecomeSolution h3,
+  .col5_TelecomeSolution h3,
+  .col6_TelecomeSolution h3 {
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* .main1_Telecome{
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.container1_Telecome{
+    width: 100%;
+    margin-top: 9rem;
+}
+.col1_Telecome h3{
+    text-align: center;
+    margin: 0 auto;
+    font-family:' Lato', sans-serif;
+font-size: 42px;
+width: 50%;
+font-weight: 500;
+}
+.container2_Telecome{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.row2_Telecome{
+    display: flex;
+    column-gap: 30px;
+}
+.col2_Telecome{
+width: 33%;
+}
+.col3_Telecome{
+width: 33%;
+
+}
+.col4_Telecome{
+width: 33%;
+
+}
+.col2_Telecome h3{
+    font-family:' Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.col3_Telecome h3{
+    font-family:' Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.col4_Telecome h3{
+    font-family:' Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.col5_Telecome h3{
+    font-family:' Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.col6_Telecome h3{
+    font-family:' Lato', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+.col2_Telecome p{
+    text-align: center;
+    font-family:' Lato', sans-serif;
+}
+.col3_Telecome p{
+    text-align: center;
+    font-family:' Lato', sans-serif;
+}
+.col4_Telecome p{
+    text-align: center;
+    font-family:' Lato', sans-serif;
+}
+.col5_Telecome p{
+    text-align: center;
+    font-family:' Lato', sans-serif;
+}
+.col6_Telecome p{
+    text-align: center;
+    font-family:' Lato', sans-serif;
+}
+.row3_Telecome{
+     display: flex;
+    column-gap: 30px;
+}
+.col5_Telecome{
+width: 33%;
+    margin-left: 160px;
+
+}
+.col6_Telecome{
+width: 33%;
+margin-left: 90px;
+
+}
+.col2_Telecome img{
+    margin-left: 160px;
+}
+.col3_Telecome img{
+    margin-left: 160px;
+}
+.col4_Telecome img{
+    margin-left: 160px;
+}
+.col5_Telecome img{
+    margin-left: 160px;
+}
+.col6_Telecome img{
+    margin-left: 160px;
+}
+ */

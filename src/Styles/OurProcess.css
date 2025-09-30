@@ -1,0 +1,269 @@
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_OurProcess{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+ 
+
+
+/* container1 start  */
+
+  .container1_OurProcess {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/ourprocess.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.container1_OurProcess::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_OurProcess {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_OurProcess h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+/* container1 end  */
+
+
+
+/* container2 start  */
+.container2_OurProcess{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
+    background: #206cb1;
+    padding: 40px 10px;
+    border-radius: 30px;
+}
+.col2_OurProcess{
+    margin: 0 auto;
+}
+.col2_OurProcess img{
+    margin-left: 204px;
+}
+/* container2 end  */
+
+
+/* container3 start  */
+.container3_Ourprocess{
+    width: 100%;
+    max-width: 98%;
+    margin-top: 140px;
+
+}
+
+
+/* row1 start  */
+
+.col3_OurProcess{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col3_OurProcess h3{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 56px;
+font-weight: 400;
+}
+.col3_OurProcess p{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 26px;
+width: 60%;
+margin-left: 21%;
+line-height: 1.4em;
+    color: #72747d;
+}
+.col3_OurProcess ul{
+    margin-left: 22%;
+}
+.col3_OurProcess li{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+/* row1 end  */
+
+
+/* row2 start  */
+
+.row2_OurProcess{
+    margin-top: 150px;
+}
+
+.col4_OurProcess{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col4_OurProcess h3{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 56px;
+font-weight: 400;
+}
+.col4_OurProcess p{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 26px;
+width: 60%;
+margin-left: 21%;
+line-height: 1.4em;
+    color: #72747d;
+}
+.col4_OurProcess ul{
+    margin-left: 22%;
+}
+.col4_OurProcess li{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+/* row2 end  */
+
+/* row3 start  */
+.row3_OurProcess{
+    margin-top: 150px;
+}
+
+.col5_OurProcess{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col5_OurProcess h3{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 56px;
+font-weight: 400;
+}
+.col5_OurProcess p{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 26px;
+width: 60%;
+margin-left: 21%;
+line-height: 1.4em;
+    color: #72747d;
+}
+.col5_OurProcess ul{
+    margin-left: 22%;
+}
+.col5_OurProcess li{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+/* row3 end  */
+
+/* row4 start  */
+.row4_OurProcess{
+    margin-top: 150px;
+}
+
+.col6_OurProcess{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col6_OurProcess h3{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 56px;
+font-weight: 400;
+}
+.col6_OurProcess p{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+font-size: 26px;
+width: 60%;
+margin-left: 21%;
+line-height: 1.4em;
+    color: #72747d;
+}
+.col6_OurProcess ul{
+    margin-left: 22%;
+}
+.col6_OurProcess li{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+/* row4 end  */
+
+/* container3 end  */
+
+
+
+
+/* html, body {
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.main1_OurProcess{
+  overflow-x: hidden;
+  width: 100%;
+}
+.container1_OurProcess{
+    width: 100%;
+    background: #206cb1;
+    height: 100vh;
+}
+.row1_OurProcess h2{
+    padding-top: 150px;
+margin-left: 90px;
+font-size: 42px;
+color: #fff;
+  font-family: 'Lato',sans-serif;
+}
+.col1_OurProcess img{
+    margin-left: 20%;
+    margin-top: 40px;
+} */

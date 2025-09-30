@@ -1,0 +1,37 @@
+.main1_IcoHeader{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.container1_IcoHeader{
+    width: 100%;
+    position: fixed;
+    left: 95%;
+    top:82%;
+}
+.row1_IcoHeader{
+    display: block;
+}
+.col1_IcoHeader{
+    width: 33%;
+cursor: pointer;
+}
+.col1_IcoHeader:hover{
+    transform: translateY(-3);
+    transition: all 0.3s ease-in;
+}
+.col2_IcoHeader{
+    width: 33%;
+cursor: pointer;
+}
+.col2_IcoHeader:hover{
+    transform: translatey(-3);
+    transition: all 0.3s ease-in;
+}
+.col3_IcoHeader{
+    width: 33%;
+cursor: pointer;
+}
+.col3_IcoHeader:hover{
+    transform: translateY(-3);
+    transition: all 0.3s ease-in;
+}

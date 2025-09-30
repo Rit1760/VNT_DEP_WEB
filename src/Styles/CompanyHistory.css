@@ -1,0 +1,119 @@
+.main1_CompanyHistory{
+    overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* first container start  */
+
+.container1_CompanyHistory{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 9rem;
+    padding-bottom: 90px;
+}
+
+
+.col1_CompanyHistory h3{
+    text-align: center;
+    margin: 0 auto;
+     font-family: 'Lato', sans-serif;
+font-size: 42px;
+}
+.col1_CompanyHistory p{
+    width: 60%;
+    margin: 0 auto;
+     font-family: 'Lato', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+        font-size: 20px;
+}
+
+/* first contyainer end  */
+
+.container2_CompanyHistory{
+    width: 100%;
+    margin: 0 auto;
+}
+.row2_CompanyHistory{
+    display: block;
+    column-gap: 20px;
+}
+.col2_CompanyHistory h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 42px;
+     font-family: 'Lato', sans-serif;
+}
+.col3_CompanyHistory img{
+    margin-left: 12%;
+    margin-top: 90px;
+}
+
+/* second container end  */
+
+
+
+
+
+
+/* 🌐 Responsive Design for Company History */
+
+/* 📱 Mobile Devices */
+/* @media (max-width: 600px) {
+  .container1_CompanyHistory {
+    margin-top: 5rem;
+    padding-bottom: 60px;
+  }
+
+  .col1_CompanyHistory h3 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  .col1_CompanyHistory p {
+    width: 90%;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .col2_CompanyHistory h3 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  .col3_CompanyHistory img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+  }
+}
+
+/* 📱📱 Tablet Devices */
+/* @media (max-width: 900px) {
+  .col1_CompanyHistory h3 {
+    font-size: 32px;
+  }
+
+  .col1_CompanyHistory p {
+    width: 85%;
+    font-size: 18px;
+  }
+
+  .col2_CompanyHistory h3 {
+    font-size: 32px;
+  }
+
+  .col3_CompanyHistory img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+  }
+}  */
+
+

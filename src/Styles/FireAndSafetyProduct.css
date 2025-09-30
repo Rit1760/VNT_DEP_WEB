@@ -1,0 +1,391 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.main1_FireAndSafety{
+margin: 0 auto;
+overflow-x: hidden;
+}
+
+
+/* container start  */
+.container_FireAndSafetyProduct{
+width: 100%;
+margin-top: 130px;
+}
+.col_FireAndSafetyProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col_FireAndSafetyProduct h4{
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #7b7878;
+    /* margin: 0px;
+    padding: 0px; */
+}
+.col_FireAndSafetyProduct h3{
+    width: 90%;
+text-align: center;
+    font-family: 'Lato', sans-serif;
+font-size: 62px;
+margin-left: 10%;
+font-weight: 400;
+margin-top: 40px;
+margin-bottom: 0px;
+padding-top: 40px;
+line-height: 1.4em;
+}
+/* container end  */
+
+
+
+
+/* container1 start  */
+
+
+.container1_FireAndSafetyProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row1_FireAndSafetyProduct{
+    display: flex;
+}
+.col1_FireAndSafetyProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_FireAndSafetyProduct{
+    background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col1_FireAndSafetyProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col1_FireAndSafetyProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col2_FireAndSafetyProduct img{
+    margin-left: 30%;
+}
+.col1_FireAndSafetyProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+      font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container1 end  */
+
+
+/* container2 start  */
+.container2_FireAndSafetyProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_FireAndSafetyProduct{
+    display: flex;
+}
+.col3_FireAndSafetyProduct{
+     background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col4_FireAndSafetyProduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 49px;
+}
+.col4_FireAndSafetyProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col4_FireAndSafetyProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col3_FireAndSafetyProduct img{
+    margin-left: 30%;
+}
+.col4_FireAndSafetyProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+      font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container2 end  */
+
+
+/* contyainer3 start  */
+.container3_FireAndSafetyProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_FireAndSafetyProduct{
+    display: flex;
+}
+.col5_FireAndSafetyProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col6_FireAndSafetyProduct{
+     background: #f4f6fa;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-radius: 30px;
+}
+.col5_FireAndSafetyProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col5_FireAndSafetyProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col6_FireAndSafetyProduct img{
+    margin-left: 30%;
+}
+.col5_FireAndSafetyProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+      font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container3 end  */
+
+
+
+
+
+/* cont1 toggle start */
+.cont1_fire_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row1_fire_toggle{
+     display: flex;
+}
+.col1_fire_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_fire_toggle img{
+    margin-left: 30px;
+}
+.col2_fire_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_fire_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col2_fire_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col2_fire_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont1 toggle end  */
+
+
+
+
+
+
+/* cont2 toggle start */
+.cont2_fire_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_fire_toggle{
+     display: flex;
+}
+.col3_fire_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col3_fire_toggle img{
+    margin-left: 30px;
+}
+.col4_fire_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col4_fire_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col4_fire_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col4_fire_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont2 toggle end  */
+
+
+
+
+/* cont3 toggle start */
+.cont3_fire_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_fire_toggle{
+     display: flex;
+}
+.col5_fire_toggle{
+    
+    width: 50%;
+    margin: 0 auto;
+}
+.col5_fire_toggle img{
+    margin-left: 30px;
+}
+.col6_fire_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col6_fire_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col6_fire_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col6_fire_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont3 toggle end  */
+
+
+
+
+/* container11 start  */
+.container4_FireAndSafetyProduct{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+    background: #e2e2e7;
+    padding: 90px 0px;
+}
+.col7_FireAndSafetyProduct{
+    width: 90%;
+    margin: 0 auto;
+}
+.col7_FireAndSafetyProduct h2{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    margin-left: 10%;
+    font-weight: 400;
+}
+.col7_FireAndSafetyProduct a{
+    font-family: 'Lato', sans-serif;
+   margin-left: 43%;
+   border: none;
+   padding: 15px 40px;
+   font-size: 26px;
+   background: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 30px;
+}
+/* container11 end  */

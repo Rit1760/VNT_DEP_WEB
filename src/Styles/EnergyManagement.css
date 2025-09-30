@@ -1,0 +1,353 @@
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_EnergyManagement{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+ 
+/*  
+ .container1_EnergyManagement{
+     width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/energymanagement1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px; 
+    
+}
+.col1_EnergyManagement{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.col1_EnergyManagement h3{
+padding-top: 30%;
+font-size: 40px;
+    font-family: 'Lato', sans-serif;
+
+}  */
+
+
+/* container1 start  */
+
+  .container1_EnergyManagement {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/energymanagement1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: white; 
+    position: relative;
+}
+
+.container1_EnergyManagement::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_EnergyManagement {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_EnergyManagement h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+  /* container1 end  */
+
+
+
+  /* container2 start  */
+.container2_EnergyManagement{
+    width: 100%;
+    margin-top: 140px;
+}
+.col2_EnergyManagement{
+width: 100%;
+    margin: 0 auto;
+max-width: 60%;
+}
+.col2_EnergyManagement h3{
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+text-align: center;
+}
+.col2_EnergyManagement p{
+    font-family: 'Lato', sans-serif;
+text-align: center;
+line-height: 1.4em;
+font-size: 18px;
+color: #72747d;
+}
+
+  /* .container2 end  */
+
+
+
+  /* container3 start  */
+
+.container3_EnergyManagement{
+    width: 100%;
+    margin-top: 140px;
+}
+.col3_EnergyManagement{
+    width:50%;
+    margin: 0 auto;
+}
+.col3_EnergyManagement_Headlines{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.col3_EnergyManagement_Headlines h2{
+    font-family: 'Lato', sans-serif;
+font-size: 42px;
+font-weight: 400;
+}
+.col3_EnergyManagement img{
+    padding-left: 16%;
+}
+
+
+  /* container3 end  */
+
+
+
+  /* container4 start  */
+
+.container4_EnergyManagement{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+.row1_EnenrgyManagement{
+    display: flex;
+}
+.col4_EnergyManagement{
+width: 50%;
+}
+.col4_EnergyManagement h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col5_EnergyManagement{
+width: 50%;
+}
+.col5_EnergyManagement h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.row2_EnergyManagement{
+    display: flex;
+    margin-top: 80px;
+}
+.col6_EnergyManagement{
+width: 50%;
+}
+.col6_EnergyManagement h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.col7_EnergyManagement{
+width: 50%;
+}
+.col7_EnergyManagement h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* ========== Responsive Design for Energy Management ========== */
+
+@media screen and (max-width: 1200px) {
+  .col1_EnergyManagement h3,
+  .col2_EnergyManagement h3 {
+    font-size: 46px;
+  }
+
+  .col2_EnergyManagement p {
+    font-size: 22px;
+  }
+
+  .col4_EnergyManagement h3,
+  .col5_EnergyManagement h3,
+  .col6_EnergyManagement h3,
+  .col7_EnergyManagement h3 {
+    font-size: 28px;
+  }
+
+  .col3_EnergyManagement_Headlines h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row1_EnenrgyManagement,
+  .row2_EnergyManagement {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .col4_EnergyManagement,
+  .col5_EnergyManagement,
+  .col6_EnergyManagement,
+  .col7_EnergyManagement {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .container4_EnergyManagement {
+    max-width: 90%;
+  }
+
+  .col2_EnergyManagement {
+    max-width: 80%;
+  }
+
+  .col2_EnergyManagement h3 {
+    font-size: 38px;
+  }
+
+  .col2_EnergyManagement p {
+    font-size: 20px;
+  }
+
+  .col3_EnergyManagement {
+    width: 90%;
+  }
+
+  .col3_EnergyManagement img {
+    padding-left: 10%;
+    width: 100%;
+  }
+
+  .col3_EnergyManagement_Headlines {
+    width: 80%;
+  }
+
+  .col3_EnergyManagement_Headlines h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container1_EnergyManagement {
+    height: auto;
+    padding: 80px 20px;
+    background-position: top;
+  }
+
+  .col1_EnergyManagement h3 {
+    font-size: 34px;
+  }
+
+  .col2_EnergyManagement h3 {
+    font-size: 32px;
+  }
+
+  .col2_EnergyManagement p {
+    font-size: 18px;
+  }
+
+  .col3_EnergyManagement_Headlines h2 {
+    font-size: 28px;
+  }
+
+  .col4_EnergyManagement h3,
+  .col5_EnergyManagement h3,
+  .col6_EnergyManagement h3,
+  .col7_EnergyManagement h3 {
+    font-size: 22px;
+  }
+
+  .col3_EnergyManagement_Headlines {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col1_EnergyManagement h3 {
+    font-size: 26px;
+  }
+
+  .col2_EnergyManagement h3 {
+    font-size: 24px;
+  }
+
+  .col2_EnergyManagement p {
+    font-size: 16px;
+  }
+
+  .col3_EnergyManagement_Headlines h2 {
+    font-size: 20px;
+  }
+
+  .col4_EnergyManagement h3,
+  .col5_EnergyManagement h3,
+  .col6_EnergyManagement h3,
+  .col7_EnergyManagement h3 {
+    font-size: 18px;
+  }
+
+  .container4_EnergyManagement {
+    margin-top: 100px;
+  }
+
+  .col3_EnergyManagement img {
+    padding-left: 0;
+    width: 100%;
+  }
+}

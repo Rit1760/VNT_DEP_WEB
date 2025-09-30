@@ -1,0 +1,817 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_CompanyProfile{
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+/* first section start  */
+.container1_CompanyProfile{
+    width: 100%;
+    margin-top: 9rem;
+}
+.row1_CompanyProfile{
+    display: block;
+    column-gap: 20px;
+}
+.col1_CompanyProfile{
+    width: 100%;
+      margin-top: 180px;
+}
+.col2_CompanyProfile{
+    width: 100%;
+    margin-top: 40px;
+}
+.col1_CompanyProfile h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 56px;
+  font-family: 'Lato',sans-serif;
+  width: 50%;
+  font-weight: 400;
+
+}
+.col2_CompanyProfile p {
+    text-align: center;
+    color: #000;
+    width: 70%;
+    margin: 0 auto;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+/* first section complete  */
+
+.container2_CompanyProfile_copy{
+  margin-top: 70px;
+    padding: 40px 0px;
+    background: url("/Images/companyprofile_copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        border-radius: 0px 0px 51px 51px;
+
+}
+
+/* second section start  */
+
+.container2_CompanyProfile{
+    margin-top: 90px;
+    padding: 40px 0px;
+}
+.row2_CompanyProfile{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.col3_CompanyProfile{
+  width: 50%;
+}
+.col3_CompanyProfile h3{
+    font-size: 42px;
+  font-family: 'Lato',sans-serif;
+    color: #000;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.col3_CompanyProfile p{
+       font-size: 18px;
+  font-family: 'Lato',sans-serif;
+    margin-top: 30px;
+    width: 80%;
+color: #000;
+line-height: 1.4em;
+    margin-left: 40px;
+}
+.col3_Companyprofile_copy{
+  display: flex;
+  column-gap: 20px;
+}
+
+.row3_CompanyProfile{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 90px;
+        width: 90%;
+        margin-left: 89px;
+}
+.col3_Companyprofile_copy ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+.col3_Companyprofile_copy li{
+  font-family: 'Lato',sans-serif;
+padding-bottom: 40px;
+font-size: 18px;
+}
+
+    .col4_CompanyProfile {
+            width: 30%;
+            background: #ebfaf1;
+            margin: 0 auto;
+            padding: 40px 10px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* .col4_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        } */
+         .col4_CompanyProfile:hover{
+          cursor: pointer;
+          transform: translateY(-20px);
+         }
+
+
+.col5_CompanyProfile{
+    width: 30%;
+    background: #ebfaf1;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 20px;  
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+        /* .col5_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        } */
+         .col5_CompanyProfile:hover{
+             cursor: pointer;
+          transform: translateY(-20px);
+         }
+
+
+
+.col6_CompanyProfile{
+    width: 30%;
+    background: #ebfaf1;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+        /* .col6_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        } */
+
+        .col6_CompanyProfile:hover{
+             cursor: pointer;
+          transform: translateY(-20px);
+        }
+
+
+
+.col4_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 26px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+.col5_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 26px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+.col6_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 26px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+.col4_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+  font-size: 16px;
+color: #72747d;
+
+}
+.col5_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+  font-size: 16px;
+color: #72747d;
+
+}
+.col6_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+  font-size: 16px;
+color: #72747d;
+
+}
+
+.row4_CompanyProfile {
+    column-gap: 0;
+    width: 68%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.col7_CompanyProfile{
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 20px;
+    background: #ebfaf1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+        /* .col7_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        } */
+
+
+        .col7_CompanyProfile:hover{
+             cursor: pointer;
+          transform: translateY(-20px);
+        }
+
+
+
+.col8_CompanyProfile{
+    width: 40%;
+    margin: 0 auto;
+    background: #ebfaf1;
+        padding: 40px 10px;
+    border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+        /* .col8_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        } */
+
+        .col8_CompanyProfile:hover{
+             cursor: pointer;
+          transform: translateY(-20px);
+        }
+
+
+
+.col7_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 26px;
+  padding-left: 30px;
+font-weight: 500;
+}
+.col7_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+font-size: 16px;
+color: #72747d;
+
+}
+.col8_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 26px;
+  padding-left: 30px;
+font-weight: 500;
+}
+.col8_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+font-size: 16px;
+color: #72747d;
+
+}
+
+/* second section end  */
+
+
+/* section three start  */
+
+.container3_CompanyProfile{
+    width: 100%;
+    margin-top: 120px;
+}
+.col9_CompanyProfile h3{
+    max-width: 0 auto;
+    text-align: center;
+  font-family: 'Lato',sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #000;
+    padding-top: 5px;
+}
+.col9_CompanyProfile p {
+    text-align: center;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+/* section three end  */
+
+
+
+/* section four start  */
+
+.container4_CompanyProfile{
+    width: 100%;
+       margin-top: 120px;
+}
+.col10_CompanyProfile h3{
+    text-align: center;
+    margin: 0 auto;
+  font-family: 'Lato',sans-serif;
+font-size: 42px;
+padding-bottom: 30px;
+}
+/* section four end  */
+
+
+
+/* slider customization start  */
+
+.row7_CompanyProfile{
+  align-items: center;
+}
+
+/* slider customization end  */
+
+
+
+/* 🌐 Responsive Design */
+
+/* 📱 Mobile Devices */
+@media (max-width: 600px) {
+  .col1_CompanyProfile h2 {
+    font-size: 36px;
+    width: 90%;
+  }
+
+  .col2_CompanyProfile p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .col3_CompanyProfile h3 {
+    font-size: 28px;
+  }
+
+  .col3_CompanyProfile p {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .row3_CompanyProfile {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col4_CompanyProfile,
+  .col5_CompanyProfile,
+  .col6_CompanyProfile {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .row4_CompanyProfile {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .col7_CompanyProfile,
+  .col8_CompanyProfile {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .col4_CompanyProfile h4,
+  .col5_CompanyProfile h4,
+  .col6_CompanyProfile h4,
+  .col7_CompanyProfile h4,
+  .col8_CompanyProfile h4 {
+    font-size: 20px;
+    padding-left: 16px;
+  }
+
+  .col4_CompanyProfile p,
+  .col5_CompanyProfile p,
+  .col6_CompanyProfile p,
+  .col7_CompanyProfile p,
+  .col8_CompanyProfile p {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+
+  .col9_CompanyProfile h3 {
+    font-size: 32px;
+    padding-top: 100px;
+  }
+
+  .col9_CompanyProfile p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .col10_CompanyProfile h3 {
+    font-size: 28px;
+  }
+}
+
+
+/* 📱📱 Tablets (up to 900px) */
+@media (max-width: 900px) {
+  .col1_CompanyProfile h2 {
+    font-size: 48px;
+    width: 80%;
+  }
+
+  .col2_CompanyProfile p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .col3_CompanyProfile h3 {
+    font-size: 32px;
+  }
+
+  .col3_CompanyProfile p {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .row3_CompanyProfile {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col4_CompanyProfile,
+  .col5_CompanyProfile,
+  .col6_CompanyProfile {
+    width: 80%;
+  }
+
+  .row4_CompanyProfile {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .col7_CompanyProfile,
+  .col8_CompanyProfile {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .col9_CompanyProfile h3 {
+    font-size: 42px;
+  }
+
+  .col9_CompanyProfile p {
+    font-size: 28px;
+    width: 90%;
+  }
+
+  .col10_CompanyProfile h3 {
+    font-size: 36px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main1_CompanyProfile{
+    overflow-x: hidden;
+    margin: 0 auto;
+} */
+
+/* first section start  */
+/* .container1_CompanyProfile{
+    width: 100%;
+    margin-top: 9rem;
+}
+.row1_CompanyProfile{
+    display: block;
+    column-gap: 20px;
+}
+.col1_CompanyProfile{
+    width: 100%;
+      margin-top: 180px;
+}
+.col2_CompanyProfile{
+    width: 100%;
+    margin-top: 40px;
+}
+.col1_CompanyProfile h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 76px;
+  font-family: 'Lato',sans-serif;
+  width: 50%;
+  font-weight: 400;
+
+}
+.col2_CompanyProfile p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+  font-family: 'Lato',sans-serif;
+  width: 70%;
+
+} */
+
+
+/* first section complete  */
+
+
+
+/* second section start  */
+
+/* .container2_CompanyProfile{
+    margin-top: 90px;
+    background:url("/../Images/cp1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px;
+}
+.col3_CompanyProfile h3{
+    font-size: 42px;
+  font-family: 'Lato',sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.col3_CompanyProfile p{
+       font-size: 26px;
+  font-family: 'Lato',sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+    color: #000;
+}
+
+
+.row3_CompanyProfile{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 90px;
+        width: 90%;
+        margin-left: 89px;
+} */
+
+
+    /* .col4_CompanyProfile {
+            width: 30%;
+            background: #fff;
+            margin: 0 auto;
+            padding: 40px 10px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .col4_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        }
+
+
+.col5_CompanyProfile{
+    width: 30%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 20px;  
+}
+        .col5_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        }
+.col6_CompanyProfile{
+    width: 30%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px 10px;
+    border-radius: 20px;
+}
+        .col6_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        }
+.col4_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+}
+.col5_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+}
+.col6_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+}
+.col4_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+
+}
+.col5_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+
+}
+.col6_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+
+}
+
+.row4_CompanyProfile {
+    column-gap: 0;
+    width: 68%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.col7_CompanyProfile{
+    width: 40%;
+    margin: 0 auto;
+        padding: 40px 10px;
+    border-radius: 20px;
+    background: #fff;
+}
+        .col7_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        }
+.col8_CompanyProfile{
+    width: 40%;
+    margin: 0 auto;
+    background: #fff;
+        padding: 40px 10px;
+    border-radius: 20px;
+}
+        .col8_CompanyProfile:hover {
+            background: linear-gradient(to right, #e8a8a8, #a2a2e8);
+            cursor: pointer;
+            border-radius: 20px;
+            color: #fff;
+        }
+.col7_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+
+
+}
+.col7_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+
+}
+.col8_CompanyProfile h4{
+  font-family: 'Lato',sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+
+
+}
+.col8_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+  padding-left: 30px;
+
+} */
+
+/* second section end  */
+
+
+/* section three start  */
+
+/* .container3_CompanyProfile{
+    width: 100%;
+    margin-top: 120px;
+    background-image: url("/../Images/Telecom-Banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.col9_CompanyProfile h3{
+    max-width: 0 auto;
+    text-align: center;
+  font-family: 'Lato',sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 180px;
+}
+.col9_CompanyProfile p{
+  font-family: 'Lato',sans-serif;
+width: 60%;
+margin: 0 auto;
+text-align: center;
+color: #fff;
+font-size: 32px;
+} */
+
+/* section three end  */
+
+
+
+/* section four start  */
+
+/* .container4_CompanyProfile{
+    width: 100%;
+    margin-top: 50px;
+}
+.col10_CompanyProfile h3{
+    text-align: center;
+    margin: 0 auto;
+  font-family: 'Lato',sans-serif;
+font-size: 42px;
+padding-bottom: 30px;
+} */
+/* section four end  */
+
+
+
+/* slider customization start  */
+
+/* .row7_CompanyProfile{
+  align-items: center;
+} */
+
+/* slider customization end  */

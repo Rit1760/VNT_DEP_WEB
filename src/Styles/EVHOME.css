@@ -1,0 +1,35 @@
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+} 
+
+.fixed-bottom-button {
+    position: fixed;
+    bottom: 20px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    z-index: 1000;
+     left: 20px;
+}
+
+.cta-button {
+    font-family: 'Lato', sans-serif;
+  background-color: #ff6600; 
+  color: #fff;           
+  padding: 14px 28px;
+  border: none;
+  border-radius: 17px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #f88f49; 
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}

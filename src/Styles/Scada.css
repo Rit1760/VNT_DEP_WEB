@@ -1,0 +1,293 @@
+ @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+ .main1_Scada {
+    background-color: #f8f9fb;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c2c2c;
+}
+
+
+  .container1_Scada {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/scada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.container1_Scada::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_Scada {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_Scada h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+} 
+
+
+
+
+
+/* ==== Header Section ==== */
+
+
+  /* container2 start  */
+.container2_Scada{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+.col2_Scada{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col2_Scada h4{
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 400;
+    margin-left: 20%;
+}
+.col2_Scada p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size:22px;
+} 
+  /* container2 end  */
+
+
+
+
+
+/* ==== Intro Text ==== */
+/* .container2_Scada .col2_Scada {
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+}
+
+.container2_Scada .col2_Scada h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.container2_Scada .col2_Scada p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+} */
+
+/* ==== Section Title ==== */
+.container3_Scada .col3_Scada h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+/* ==== Accordion Container ==== */
+.col4_Scada {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px 24px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* ==== Accordion Items ==== */
+.col4_Scada h4 {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.col4_Scada h4:hover {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* ==== Toggle Symbol Styling ==== */
+.col4_Scada h4::after {
+    content: "";
+    display: none; /* Already included via JSX "+" / "-" */
+}
+
+.col4_Scada p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    background-color: #fcfcfc;
+    padding: 16px 20px;
+    border-left: 4px solid #ff6600;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* ==== Responsive Design ==== */
+@media (max-width: 768px) {
+    .container2_Scada .col2_Scada h4 {
+        font-size: 20px;
+    }
+
+    .col4_Scada h4 {
+        font-size: 17px;
+        padding: 12px 16px;
+    }
+
+    .col4_Scada p {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+}
+ 
+ 
+ 
+ 
+
+
+  /* .container1_Scada {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url("/../../Images/scada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    position: relative;
+}
+
+.container1_Scada::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_Scada {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_Scada h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}  */
+
+  /* container1 end  */
+
+
+
+
+  /* container2 start  */
+/* .container2_Scada{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+.col2_Scada{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col2_Scada h4{
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 400;
+    margin-left: 20%;
+}
+.col2_Scada p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 32px;
+} */
+  /* container2 end  */
+
+
+
+
+  /* container3 start  */
+/* .container3_Scada{
+    width: 100%;
+    margin: 0 auto;
+}
+.row3_Scada{
+    display: flex;
+    column-gap: 30px;
+}
+.col3_Scada{
+    width: 30%;
+}
+.col3_Scada h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.col4_Scada{
+    width: 70%;
+}
+.col4_Scada h4{
+    font-family: 'Lato', sans-serif;
+}
+.col4_Scada p{
+    font-family: 'Lato', sans-serif;
+} */
+  /* container3 end  */

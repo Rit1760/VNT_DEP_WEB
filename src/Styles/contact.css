@@ -1,0 +1,482 @@
+/* 
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.main1_Contact {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Section One */
+  /* .container1_Contact {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    height: 100vh;
+   background: url(/../Images/contactform.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    color: white; 
+    position: relative;
+}
+
+.container1_Contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.col1_Contact {
+    z-index: 2; 
+    padding: 20px;
+}
+
+.col1_Contact h3 {
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px;
+    font-weight: 400;
+}  */
+
+
+
+
+
+
+
+
+
+
+/* Section Two */
+/* .container2_contact {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.row3_contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.col3_contact {
+  flex: 1;
+  min-width: 280px;
+}
+
+.col3_contact h3 {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.col3_contact h4 {
+  font-size: 20px;
+  color: #ff6600;
+  margin-top: 0.2rem;
+} */
+
+/* Form Column */
+/* .col4_contact {
+  flex: 1;
+  min-width: 320px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.col4_contact h3 {
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #fefefe;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff6600;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+} */
+
+/* Submit Button */
+/* button[type="submit"] {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e25500;
+} */
+
+/* Message After Submit */
+/* .form-message {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: green;
+  font-weight: 500;
+} */
+
+
+/* section three start  */
+/* .container3_contact{
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.cont3_col1_contact h3{
+  font-family: 'Lato', sans-serif;
+font-size: 56px ;
+text-align: center;
+margin: 0 auto;
+margin-top: 90px;
+margin-bottom: 70px;
+}
+.cont3_col1_contact h4{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 90px;
+} */
+
+/* section three end  */
+
+
+
+
+/* Responsive Design */
+/* @media screen and (max-width: 768px) {
+  .col1_Contact h2 {
+    font-size: 36px;
+  }
+
+  .col4_contact h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .row3_contact {
+    flex-direction: column;
+  }
+
+  .col3_contact,
+  .col4_contact {
+    width: 100%;
+  }
+} */
+
+
+
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.main1_Contact {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* =================== Section One =================== */
+.container1_Contact {
+  width: 100%;
+  max-width: 98%;
+  margin: 0 auto;
+  height: 100vh;
+  background: url(/../Images/contactform.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.container1_Contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.col1_Contact {
+  z-index: 2;
+  padding: 20px;
+}
+
+.col1_Contact h3 {
+  font-size: 56px;
+  font-family: 'Lato', sans-serif;
+  padding: 0 20px;
+  font-weight: 400;
+}
+
+/* =================== Section Two =================== */
+.container2_contact {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.row3_contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.col3_contact {
+  flex: 1;
+  min-width: 280px;
+}
+
+.col3_contact h3 {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.col3_contact h4 {
+  font-size: 20px;
+  color: #ff6600;
+  margin-top: 0.2rem;
+}
+
+/* ==== Form Column ==== */
+.col4_contact {
+  flex: 1;
+  min-width: 320px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.col4_contact h3 {
+  font-size: 28px;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #fefefe;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff6600;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.75rem 1.2rem;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e25500;
+}
+
+.form-message {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: green;
+  font-weight: 500;
+}
+
+/* =================== Section Three =================== */
+.container3_contact {
+  width: 100%;
+  max-width: 800px;
+  margin: 90px auto 70px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.cont3_col1_contact h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.cont3_col1_contact h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* =================== Responsive Design =================== */
+@media screen and (max-width: 1024px) {
+  .col1_Contact h3 {
+    font-size: 40px;
+  }
+
+  .cont3_col1_contact h3 {
+    font-size: 36px;
+  }
+
+  .col4_contact {
+    padding: 1.5rem;
+  }
+
+  .col4_contact h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container1_Contact {
+    height: auto;
+    padding: 80px 20px;
+    border-radius: 0;
+  }
+
+  .col1_Contact h3 {
+    font-size: 32px;
+  }
+
+  .row3_contact {
+    flex-direction: column;
+  }
+
+  .col3_contact,
+  .col4_contact {
+    width: 100%;
+  }
+
+  .cont3_col1_contact h3 {
+    font-size: 28px;
+  }
+
+  .cont3_col1_contact h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+
+  .col4_contact h3 {
+    font-size: 20px;
+  }
+
+  .form-message {
+    font-size: 14px;
+  }
+}

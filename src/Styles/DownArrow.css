@@ -1,0 +1,13 @@
+.container1_DownArrow{
+    width: 100%;
+    margin: 0 auto;
+}
+.col1_DownArrow{
+    /* width: 1%; */
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    border: 1px solid;
+    padding: 30px 15px;
+    border-radius: 12px;
+}

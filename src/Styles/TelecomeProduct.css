@@ -1,0 +1,1292 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.main1_TelecomeProduct{
+margin: 0 auto;
+overflow-x: hidden;
+}
+
+
+/* container1 start  */
+
+.container1_TelecomeProduct{
+width: 100%;
+margin-top: 130px;
+}
+.col1_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_TelecomeProduct h4{
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #7b7878;
+    margin: 0px;
+    padding: 0px;
+}
+.col1_TelecomeProduct h3{
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0%;
+    padding-top: 40px;
+    font-family: Lato, sans-serif;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* containmer1 end  */
+
+
+/* container2 start  */
+.container2_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_TelecomeProduct{
+    display: flex;
+}
+.col2_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col3_TelecomeProduct{
+  background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col2_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col2_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col3_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col2_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container2 end  */
+
+
+
+
+/* container3 start  */
+.container3_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_TelecomeProduct{
+    display: flex;
+}
+.col4_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col5_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.col5_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col5_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col4_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col5_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container3 end  */
+
+
+/* container4 start  */
+.container4_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row4_TelecomeProduct{
+    display: flex;
+}
+.col6_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col7_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col6_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col6_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col7_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col6_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* container4 end  */
+
+
+/* container5 start  */
+.container5_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row5_TelecomeProduct{
+    display: flex;
+}
+.col9_Telecomeproduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.col8_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col9_Telecomeproduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col9_Telecomeproduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col8_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col9_Telecomeproduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* container5 end  */
+
+
+
+/* container6 start  */
+
+.container6_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row6_TelecomeProduct{
+    display: flex;
+}
+.col10_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col11_TelecomeProduct{
+ background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col10_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col10_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+        width: 76%;
+    line-height: 1.3em;
+}
+.col11_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col10_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container6 end  */
+
+
+
+/* conatiner7 start  */
+.container7_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row7_TelecoemProduct{
+    display: flex;
+}
+.col12_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col13_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.col13_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col13_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col12_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col13_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* conatiner7 end  */
+
+
+/* container8 start  */
+.container8_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row8_TelecomeProduct{
+    display: flex;
+}
+.col14_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col15_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col14_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col14_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col15_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col14_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* conatiner8 end  */
+
+
+/* continer9 start  */
+.container9_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row9_TelecomeProduct{
+    display: flex;
+}
+.col16_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col17_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.col17_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col17_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col16_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col17_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container9 end  */
+
+
+/* container10 start  */
+.container10_TelecomeProduct{
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row10_TelecomeProduct{
+    display: flex;
+}
+.col18_TelecomeProduct{
+    width: 50%;
+    margin: 0 auto;
+}
+.col19_TelecomeProduct{
+background: #f4f6fa;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.col18_TelecomeProduct h3{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.col18_TelecomeProduct h4{
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7b7878;
+}
+.col19_TelecomeProduct img{
+    margin-left: 30%;
+}
+.col18_TelecomeProduct h5{
+    text-align: center;
+    background: #e2e2e7;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 60px;
+    padding: 17px 10px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* container10 end  */
+
+
+
+
+/* cont1 toggle start  */
+.cont1_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row1_TelecomeProduct_toggle{
+     display: flex;
+}
+.col1_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col1_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col2_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col2_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col2_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col2_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+    margin-left: 30px;
+    font-size: 20px;
+}
+/* cont1 toggle end  */
+
+
+/* cont2 toggle start  */
+
+.cont2_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row2_TelecomeProduct_toggle{
+     display: flex;
+}
+.col3_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col3_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col4_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col4_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col4_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col4_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont2 toggle end  */
+
+
+
+
+/* cont3 toggle start  */
+
+.cont3_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row3_TelecomeProduct_toggle{
+     display: flex;
+}
+.col8_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col8_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col9_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col9_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col9_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col9_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont3 toggle end  */
+
+
+
+
+/* cont4 toggle start  */
+
+.cont4_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row4_TelecomeProduct_toggle{
+     display: flex;
+}
+.col10_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col10_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col11_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col11_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col11_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col11_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont4 toggle end  */
+
+
+
+
+
+/* cont5 toggle start  */
+
+.cont5_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row5_TelecomeProduct_toggle{
+     display: flex;
+}
+.col12_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col12_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col13_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col13_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col13_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col13_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont5 toggle end  */
+
+
+
+
+/* cont6 toggle start  */
+
+.cont6_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row6_TelecomeProduct_toggle{
+     display: flex;
+
+}
+.col14_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col14_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col15_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col15_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col15_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col15_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont6 toggle end  */
+
+
+
+/* cont7 toggle start  */
+
+.cont7_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row7_TelecomeProduct_toggle{
+     display: flex;
+}
+.col16_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col16_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col17_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col17_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col17_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col17_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont7 toggle end  */
+
+
+
+/* cont8 toggle start  */
+
+.cont8_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row8_TelecomeProduct_toggle{
+     display: flex;
+}
+.col18_Telecomeproduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col18_Telecomeproduct_toggle img{
+    margin-left: 30px;
+}
+.col19_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col19_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col19_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col19_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont8 toggle end  */
+
+
+
+
+
+/* cont8 toggle start  */
+
+.cont9_TelecomeProduct_toggle{
+    display: flex;
+        max-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.row9_TelecomeProduct_toggle{
+     display: flex;
+}
+.col20_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col20_TelecomeProduct_toggle img{
+    margin-left: 30px;
+}
+.col21_TelecomeProduct_toggle{
+    width: 50%;
+    margin: 0 auto;
+}
+.col21_TelecomeProduct_toggle h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+font-weight: 400;
+}
+.col21_TelecomeProduct_toggle p{
+    color: #7b7878;
+    width: 80%;
+font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col21_TelecomeProduct_toggle li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+        width: 80%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #e2e2e7;
+}
+
+/* cont8 toggle end  */
+
+
+
+
+
+
+
+/* container11 start  */
+.container11_TelecomeProduct{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+    background: #e2e2e7;
+    padding: 90px 0px;
+}
+.col20_TelecomeProduct{
+    width: 90%;
+    margin: 0 auto;
+}
+.col20_TelecomeProduct h2{
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+    margin-left: 10%;
+    font-weight: 400;
+}
+.col20_TelecomeProduct a{
+    font-family: 'Lato', sans-serif;
+   margin-left: 43%;
+   border: none;
+   padding: 15px 40px;
+   font-size: 26px;
+   background: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 30px;
+}
+/* container11 end  */
+
+
+
+
+
+
+
+/* @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+.main1_TelecomeProduct{
+overflow-x: hidden;
+}
+
+.scrollContainer1_TP{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.col1_services h3{
+text-align: center;
+      font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+ .scrollContainer1_TP {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.snapRow1TP {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  column-gap: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.snapRow1TP > div {
+  width: 50%;
+}
+
+.snapRow1TP h3 {
+  font-family:'Lato', sans-serif;
+  font-size: 42px;
+  color: #999;
+}
+
+.snapRow1TP p {
+  font-family:'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+/* @font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/Fonts/Montserrat-Italic-VariableFont_wght') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* section one  */
+
+/* .container1_Services{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.col1_Services h2{
+text-align: center;
+      font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+/* section one end  */
+
+
+
+/* section two start */
+/* .container2_Services{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.row2_Services{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.col2_Services{
+  width: 40%;
+}
+.col3_Services{
+  width: 60%;
+}
+#li1{
+        font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+    padding: 10px 30px;
+    margin: 20px 0px;
+       font-size: 18px;
+}
+#li1:hover{
+  cursor: pointer;
+    transform: translateX(20px);
+  transition: all 0.5s ease;
+  color: #ff6600;
+  font-weight: 600;
+}
+#li2{
+     font-family: 'Lato', sans-serif;
+font-weight: normal;
+    margin: 20px 0px;
+    padding: 10px 30px;
+      font-size: 18px;
+}
+#li2:hover{
+  cursor: pointer;
+    transform: translateX(20px);
+  transition: all 0.5s ease;
+    color: #ff6600;
+  font-weight: 600;
+}
+#li3{
+     font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+       padding: 10px 30px;
+     font-size: 18px;
+    margin: 20px 0px;
+
+}
+#li3:hover{
+  cursor: pointer;
+    transform: translateX(20px);
+  transition: all 0.5s ease;
+    color: #ff6600;
+  font-weight: 600;
+}
+
+#li4{
+          font-family: 'Lato', sans-serif;
+font-weight: normal;
+       padding: 10px 30px;
+      font-size: 18px;
+    margin: 20px 0px;
+}
+#li4:hover{
+  cursor: pointer;
+    transform: translateX(20px);
+   transition: all 0.5s ease;
+    color: #ff6600;
+  font-weight: 600;
+}
+#li5{
+            font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+       padding: 10px 30px;
+      font-size: 18px;
+    margin: 20px 0px;
+}
+#li5:hover{
+  cursor: pointer;
+    transform: translateX(20px);
+  transition: all 0.5s ease;
+
+    color: #ff6600;
+  font-weight: 600;
+}
+#li6{
+         font-family: 'Lato', sans-serif;
+
+font-weight: normal;
+       padding: 10px 30px;
+      font-size: 18px;
+
+    margin: 20px 0px;
+}
+#li6:hover{
+  cursor: pointer;
+  transform: translateX(20px);
+  transition: all 0.5s ease;
+    color: #ff6600;
+  font-weight: 600;
+
+}
+#li7{
+        font-family: 'Lato', sans-serif;
+width: 80%;
+font-weight: normal;
+       padding: 10px 30px;
+    font-size: 18px;
+    margin: 20px 0px;
+
+}
+#li7:hover{
+  cursor: pointer;
+  transform: translateX(20px);
+  transition: all 0.5s ease;
+    color: #ff6600;
+  font-weight: 600;
+}
+
+#li11{
+    font-family: 'Lato', sans-serif;
+    width: 70%;
+    font-size: 22px;
+}
+#li22{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+#li33{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+#li44{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+#li55{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+#li66{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+#li77{
+    font-family: 'Lato', sans-serif;
+        width: 70%;
+    font-size: 22px;
+}
+.col2_Services ol{
+    list-style-type: none; */
+/* }  */
+/* section two end  */
+
+
+
+ 
