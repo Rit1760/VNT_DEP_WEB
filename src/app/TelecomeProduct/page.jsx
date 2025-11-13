@@ -143,8 +143,6 @@ export default function TelecomeProduct(){
                     </div>
                 </div>
             </div>
-
-
 {tel3 &&(
 
         <div className="cont3_TelecomeProduct_toggle">

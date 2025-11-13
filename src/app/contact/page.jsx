@@ -62,9 +62,6 @@ export default function Contact() {
 
   return (
     <>
-
-
-
 <Head>                
   <title>Contact VNT | Get in Touch with Solar & Energy Experts</title>
 
@@ -87,9 +84,6 @@ export default function Contact() {
     content="VNT contact, solar solutions support, energy management contact, fire safety inquiries, customer support VNT, solar energy assistance India"
   />
 </Head>
-
-
-
       <div className="main1_Contact">
         {/* Section One */}
         <div className="container1_Contact">

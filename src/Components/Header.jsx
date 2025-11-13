@@ -121,24 +121,24 @@ export default function Header() {
           <div className="col2_Nav">
             <ul>
               <li><Link href="/">HOME</Link></li>
-              <li><Link href="/Cleanwatts">VNT CLEANWATTS</Link></li>
+              <li><Link href="https://vnt.in/vnt-cleanwatts/">VNT CLEANWATTS</Link></li>
               <li ref={aboutRef} onClick={clickBTn} style={{ cursor: "pointer" }}>
-                <Link href="#">
+                <Link href="https://vnt.in/company-profile/">
                   ABOUT US {set ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
                 </Link>
               </li>
               <li ref={solutionsRef} onClick={clickBTn1} style={{ cursor: "pointer" }}>
-                <Link href="#">
+                <Link href="https://vnt.in/solar-solutions/">
                   SOLUTIONS {set1 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
                 </Link>
               </li>
               <li ref={productsRef} onClick={clickBTn2} style={{ cursor: "pointer" }}>
-                <Link href="#">
+                <Link href="https://vnt.in/Solutions/solar-products/">
                   PRODUCTS {set2 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
                 </Link>
               </li>
-              <li><Link href="/Service">SERVICES</Link></li>
-              <li><Link href="/contact">CONTACT US</Link></li>
+              <li><Link href="https://vnt.in/services/">SERVICES</Link></li>
+              <li><Link href="https://vnt.in/contact-us/">CONTACT US</Link></li>
             </ul>
           </div>
         </div>
@@ -149,9 +149,9 @@ export default function Header() {
           <div className='row2_NAV'>
             <div className='col3_NAV'>
               <ul>
-                <li><Link href="/CompanyProfile">Company Profile</Link></li>
-                <li><Link href="/CompanyHistory">Company History</Link></li>
-                <li><Link href="/LeaderShip">Leadership</Link></li><br />
+                <li><Link href="https://vnt.in/company-profile/">Company Profile</Link></li>
+                <li><Link href="https://vnt.in/history/">Company History</Link></li>
+                <li><Link href="https://vnt.in/leadership/">Leadership</Link></li><br />
               </ul>
             </div>
           </div>
@@ -162,11 +162,11 @@ export default function Header() {
           <div className='row3_NAV'>
             <div className='col4_NAV'>
               <ul>
-                <li><Link href="/SolarSolutions">Solor</Link></li>
-                <li><Link href="/EnergyManagement">Energy Management</Link></li>
-                <li><Link href="/Telecome">Telecome</Link></li>
-                <li><Link href="#">E-Mobility</Link></li>
-                <li><Link href="/FireAndSafety">Fire & Safety</Link></li>
+                <li><Link href="https://vnt.in/solar-solutions/">Solor</Link></li>
+                <li><Link href="https://vnt.in/energy-management-solutions/">Energy Management</Link></li>
+                <li><Link href="https://vnt.in/telecom-solutions/">Telecome</Link></li>
+                <li><Link href="https://vnt.in/e-mobility-solutions/">E-Mobility</Link></li>
+                <li><Link href="https://vnt.in/fire-and-safety-solutions/">Fire & Safety</Link></li>
               </ul>
             </div>
           </div>
@@ -177,10 +177,10 @@ export default function Header() {
           <div className='row4_NAV'>
             <div className='col5_NAV'>
               <ul>
-                <li><Link href="/SolarProduct">Solor</Link></li>
-                <li><Link href="/TelecomeProduct">Telecome</Link></li>
-                <li><Link href="EVproducts">E-Mobility</Link></li>
-                <li><Link href="/FireAndSafetyProduct">Fire & Safety</Link></li>
+                <li><Link href="https://vnt.in/Solutions/solar-products/">Solor</Link></li>
+                <li><Link href="https://vnt.in/Solutions/telecom-products/">Telecome</Link></li>
+                <li><Link href="https://vnt.in/Solutions/e-mobility-products/">E-Mobility</Link></li>
+                <li><Link href="https://vnt.in/Solutions/fire-safety-products/">Fire & Safety</Link></li>
               </ul>
             </div>
           </div>

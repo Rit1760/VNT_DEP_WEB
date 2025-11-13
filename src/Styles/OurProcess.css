@@ -81,17 +81,17 @@
 
 
 /* container3 start  */
-.container3_Ourprocess{
+/* .container3_Ourprocess{
     width: 100%;
     max-width: 98%;
     margin-top: 140px;
 
-}
+} */
 
 
 /* row1 start  */
 
-.col3_OurProcess{
+/* .col3_OurProcess{
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
@@ -119,14 +119,14 @@ line-height: 1.4em;
     font-family: 'Lato', sans-serif;
     padding-bottom: 10px;
     list-style-type: none;
-}
+} */
 
 /* row1 end  */
 
 
 /* row2 start  */
 
-.row2_OurProcess{
+/* .row2_OurProcess{
     margin-top: 150px;
 }
 
@@ -158,11 +158,11 @@ line-height: 1.4em;
     font-family: 'Lato', sans-serif;
     padding-bottom: 10px;
     list-style-type: none;
-}
+} */
 /* row2 end  */
 
 /* row3 start  */
-.row3_OurProcess{
+/* .row3_OurProcess{
     margin-top: 150px;
 }
 
@@ -194,11 +194,11 @@ line-height: 1.4em;
     font-family: 'Lato', sans-serif;
     padding-bottom: 10px;
     list-style-type: none;
-}
+} */
 /* row3 end  */
 
 /* row4 start  */
-.row4_OurProcess{
+/* .row4_OurProcess{
     margin-top: 150px;
 }
 
@@ -230,40 +230,196 @@ line-height: 1.4em;
     font-family: 'Lato', sans-serif;
     padding-bottom: 10px;
     list-style-type: none;
-}
+} */
 /* row4 end  */
 
 /* container3 end  */
 
 
 
-
-/* html, body {
-  overflow-x: hidden;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('/Fonts/Lato-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-.main1_OurProcess{
-  overflow-x: hidden;
-  width: 100%;
-}
-.container1_OurProcess{
+/* container 3 start  */
+.container3_OurProcess{
     width: 100%;
-    background: #206cb1;
-    height: 100vh;
+    margin: 0 auto;
+    margin-top: 90px;
 }
-.row1_OurProcess h2{
-    padding-top: 150px;
-margin-left: 90px;
-font-size: 42px;
-color: #fff;
-  font-family: 'Lato',sans-serif;
+.row1_OurProcess{
+    display: flex;
+    align-items: center;
 }
-.col1_OurProcess img{
-    margin-left: 20%;
-    margin-top: 40px;
-} */
+.col3_OurProcess{
+    width: 50%;
+}
+
+.col4_OurProcess{
+    width: 50%;
+    background: url("/../Images/energyop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    height: 50vh;
+    /* background-attachment: fixed; */
+}
+.col3_OurProcess h2{
+    font-family: 'Lato', sans-serif;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.col3_OurProcess h3{
+    margin-left: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #206cb1;
+}
+.col3_OurProcess p{
+    margin-left: 70px;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    color: #636161;
+}
+/* container3 end  */
+
+
+/* container4 start  */
+.container4_OurProcess{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.row2_OurProcess{
+    display: flex;
+    align-items: center;
+}
+.col6_OurProcess{
+    width: 50%;
+}
+
+.col5_OurProcess{
+    width: 50%;
+    background: url("/../Images/ourprocess2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    height: 50vh;
+    /* background-attachment: fixed; */
+}
+.col6_OurProcess h2{
+    font-family: 'Lato', sans-serif;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.col6_OurProcess h3{
+    margin-left: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #206cb1;
+}
+.col6_OurProcess p{
+    margin-left: 70px;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    color: #636161;
+
+}
+/* container4 end  */
+
+
+/* container5 start  */
+.container5_OurProcess{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.row3_OurProcess{
+    display: flex;
+    align-items: center;
+}
+.col7_OurProcess{
+    width: 50%;
+}
+
+.col8_OurProcess{
+    width: 50%;
+    background: url("/../Images/ourprocess3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    height: 50vh;
+    /* background-attachment: fixed; */
+}
+.col7_OurProcess h2{
+    font-family: 'Lato', sans-serif;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.col7_OurProcess h3{
+    margin-left: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #206cb1;
+}
+.col7_OurProcess p{
+    margin-left: 70px;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    color: #636161;
+
+}
+/* container5 end  */
+
+
+/* container6 start  */
+.container6_OurProcess{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.row4_OurProcess{
+    display: flex;
+    align-items: center;
+}
+.col10_OurProcess{
+    width: 50%;
+}
+
+.col9_OurProcess{
+    width: 50%;
+    background: url("/../Images/ourprocess4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    height: 50vh;
+    /* background-attachment: fixed; */
+}
+.col10_OurProcess h2{
+    font-family: 'Lato', sans-serif;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.col10_OurProcess h3{
+    margin-left: 70px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #206cb1;
+}
+.col10_OurProcess p{
+    margin-left: 70px;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4em;
+    font-size: 18px;
+    color: #636161;
+
+}
+
+/* container6 end  */

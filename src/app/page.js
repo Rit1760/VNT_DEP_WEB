@@ -83,8 +83,6 @@ const languageNames = {
 };
 
 export default function Home() {
-
-
           const [isVisiblepop, setIsVisiblepop] = useState(false);
 
       const toggleVisibilitypop = () => {
@@ -143,8 +141,8 @@ col37homep:'Join our global network of partners. We can unlock the future of ene
 row3_Home_1h2:'Residential EV Charger',
 row3_Home_1p:`A Residential EV Charger makes home charging simple, safe, and efficient, ensuring your electric car is always ready to drive. With compact design and smart features, it offers reliable performance tailored for everyday use. Perfect for EV owners seeking convenient and cost-effective charging at home.`,
 row3_Home_2h2:'Public Charger',
-row3_Home_2p:`Our Fast EV Chargers deliver ultra-fast, safe, and reliable charging for electric cars across urban hubs, highways, malls, offices, and public spaces. Designed for speed, convenience, and smart connectivity, they make daily commutes and long-distance travel seamless while supporting the growing adoption of electric mobility with future-ready charging solutions.`,
-bgimage3p:`Our CMS (Charger Management System) and mobile app for Android and iOS provide complete control and monitoring of charging stations in real time. With features like remote access, secure payments, live charger status, and smart analytics, it ensures seamless management for operators and convenience for EV drivers. Designed for scalability and reliability, it powers the future of connected EV charging. `,
+row3_Home_2p:`Our Fast EV Chargers provide ultra-fast, safe, and reliable charging across urban hubs, highways, and public spaces, enabling seamless travel and supporting electric mobility adoption.`,
+// bgimage3p:`Our CMS and mobile app (Android & iOS) enable real-time EV charger monitoring and control with remote access, secure payments, live status, and smart analytics—ensuring seamless management for operators and convenience for drivers. `,
 col1NAV_EV1a:'Residential charging',
 col2NAV_EV2a:'Public Charging',
 col3NAV_EV3a:' Content Management System',
@@ -192,7 +190,7 @@ row3_Home_1h2:'घरेलू ईवी चार्जर',
 row3_Home_1p:`एक घरेलू ईवी चार्जर इलेक्ट्रिक वाहन मालिकों को अपने वाहन को घर पर आसानी से चार्ज करने की सुविधा प्रदान करता है। यह सामान्य विद्युत सॉकेट की तुलना में तेज़ चार्जिंग गति देता है, सुरक्षा सुनिश्चित करता है, और रात भर चार्जिंग के लिए आदर्श होता है। ये चार्जर इंस्टॉल करने में आसान होते हैं और सार्वजनिक चार्जिंग स्टेशन पर निर्भरता कम करने में मदद करते हैं।`,
 row3_Home_2h2:'सार्वजनिक चार्जिंग',
 row3_Home_2p:`सार्वजनिक ईवी चार्जिंग स्टेशन इलेक्ट्रिक वाहन उपयोगकर्ताओं को घर से दूर रहते हुए अपने वाहन चार्ज करने की सुविधा प्रदान करते हैं। ये स्टेशन आमतौर पर पार्किंग स्थल, शॉपिंग सेंटर, हाईवे, और शहरी क्षेत्रों में पाए जाते हैं, जो तेज़ और भरोसेमंद चार्जिंग विकल्प प्रदान करते हैं ताकि लंबी दूरी की यात्रा और दैनिक आवागमन का समर्थन किया जा सके।`,
-bgimage3p:`CMS (कंटेंट मैनेजमेंट सिस्टम) एक सॉफ़्टवेयर एप्लिकेशन होता है जो उपयोगकर्ताओं को बिना किसी विशेष तकनीकी ज्ञान के डिजिटल सामग्री को बनाने, प्रबंधित करने और संशोधित करने में सक्षम बनाता है। इसे आमतौर पर वेबसाइटों के प्रबंधन के लिए उपयोग किया जाता है, जो आसान कंटेंट अपडेट, मीडिया अपलोड और वेबसाइट के समग्र रखरखाव को एक सहज इंटरफेस के माध्यम से संभव बनाता है।`,
+// bgimage3p:`CMS (कंटेंट मैनेजमेंट सिस्टम) एक सॉफ़्टवेयर एप्लिकेशन होता है जो उपयोगकर्ताओं को बिना किसी विशेष तकनीकी ज्ञान के डिजिटल सामग्री को बनाने, प्रबंधित करने और संशोधित करने में सक्षम बनाता है। इसे आमतौर पर वेबसाइटों के प्रबंधन के लिए उपयोग किया जाता है, जो आसान कंटेंट अपडेट, मीडिया अपलोड और वेबसाइट के समग्र रखरखाव को एक सहज इंटरफेस के माध्यम से संभव बनाता है।`,
 col1NAV_EV1a:'आवासीय चार्जिंग',
 col2NAV_EV2a:'सार्वजनिक चार्जिंग',
 col3NAV_EV3a:' सामग्री प्रबंधन प्रणाली',
@@ -234,7 +232,7 @@ row3_Home_1h2:'شاحن المركبات الكهربائية المنزلي',
 row3_Home_1p:`تيح شاحن المركبات الكهربائية المنزلي لأصحاب السيارات الكهربائية شحن سياراتهم بسهولة داخل المنزل. يوفر سرعات شحن أسرع مقارنة بالمقابس الكهربائية العادية، ويضمن الأمان، وهو مثالي للشحن طوال الليل. هذه الشواحن سهلة التركيب وتساعد في تقليل الاعتماد على محطات الشحن العامة.`,
 row3_Home_2h2:' الشحن العام',
 row3_Home_2p:`توفر محطات شحن المركبات الكهربائية العامة للمستخدمين إمكانية شحن سياراتهم أثناء التنقل بعيداً عن المنزل. توجد هذه المحطات عادةً في مواقف السيارات ومراكز التسوق والطرق السريعة والمناطق الحضرية، وتقدم خيارات شحن سريعة وموثوقة لدعم الرحلات الطويلة والتنقل اليومي.`,
-bgimage3p:`نظام إدارة المحتوى (CMS) هو تطبيق برمجي يتيح للمستخدمين إنشاء وإدارة وتعديل المحتوى الرقمي دون الحاجة إلى معرفة تقنية متخصصة. يُستخدم عادةً لإدارة المواقع الإلكترونية، مما يسمح بتحديث المحتوى بسهولة، وتحميل الوسائط، وصيانة الموقع بشكل عام من خلال واجهة سهلة الاستخدام وبديهية.`,
+// bgimage3p:`نظام إدارة المحتوى (CMS) هو تطبيق برمجي يتيح للمستخدمين إنشاء وإدارة وتعديل المحتوى الرقمي دون الحاجة إلى معرفة تقنية متخصصة. يُستخدم عادةً لإدارة المواقع الإلكترونية، مما يسمح بتحديث المحتوى بسهولة، وتحميل الوسائط، وصيانة الموقع بشكل عام من خلال واجهة سهلة الاستخدام وبديهية.`,
 col1NAV_EV1a:'الشحن السكني',
 col2NAV_EV2a:'الشحن العام',
 col3NAV_EV3a:'نظام إدارة المحتوى',
@@ -276,7 +274,7 @@ row3_Home_1h2:'Cargador residencial para vehículos eléctricos',
 row3_Home_1p:`Un cargador residencial para vehículos eléctricos permite a los propietarios cargar sus autos cómodamente en casa. Ofrece velocidades de carga más rápidas en comparación con los enchufes estándar, garantiza seguridad y es ideal para cargar durante la noche. Estos cargadores son fáciles de instalar y ayudan a reducir la dependencia de las estaciones de carga públicas.`,
 row3_Home_2h2:'Carga pública',
 row3_Home_2p:`Las estaciones públicas de carga para vehículos eléctricos brindan a los usuarios la comodidad de cargar sus vehículos cuando están fuera de casa. Estas estaciones se encuentran comúnmente en estacionamientos, centros comerciales, autopistas y áreas urbanas, ofreciendo opciones de carga rápidas y confiables para apoyar viajes de larga distancia y desplazamientos diarios.`,
-bgimage3p:`Un CMS (Sistema de Gestión de Contenidos) es una aplicación de software que permite a los usuarios crear, gestionar y modificar contenido digital sin necesidad de conocimientos técnicos especializados. Se utiliza comúnmente para administrar sitios web, facilitando la actualización de contenido, la carga de medios y el mantenimiento general del sitio a través de una interfaz intuitiva.`,
+// bgimage3p:`Un CMS (Sistema de Gestión de Contenidos) es una aplicación de software que permite a los usuarios crear, gestionar y modificar contenido digital sin necesidad de conocimientos técnicos especializados. Se utiliza comúnmente para administrar sitios web, facilitando la actualización de contenido, la carga de medios y el mantenimiento general del sitio a través de una interfaz intuitiva.`,
 col1NAV_EV1a:'Carga residencial',
 col2NAV_EV2a:'Carga pública',
 col3NAV_EV3a:'Sistema de Gestión de Contenidos',
@@ -318,7 +316,7 @@ row3_Home_1h2:'Carregador residencial para veículos elétricos',
 row3_Home_1p:`Um carregador residencial para veículos elétricos permite que os proprietários carreguem seus carros confortavelmente em casa. Ele oferece velocidades de carregamento mais rápidas em comparação com tomadas padrão, garante segurança e é ideal para carregamento durante a noite. Esses carregadores são fáceis de instalar e ajudam a reduzir a dependência de estações públicas de carregamento.`,
 row3_Home_2h2:'Carregamento público',
 row3_Home_2p:`As estações públicas de carregamento para veículos elétricos oferecem aos usuários a conveniência de carregar seus veículos fora de casa. Essas estações são comumente encontradas em estacionamentos, shoppings, rodovias e áreas urbanas, oferecendo opções de carregamento rápidas e confiáveis para apoiar viagens de longa distância e deslocamentos diários.`,
-bgimage3p:`Um CMS (Sistema de Gestão de Conteúdo) é um aplicativo de software que permite aos usuários criar, gerenciar e modificar conteúdo digital sem a necessidade de conhecimentos técnicos especializados. Ele é comumente usado para gerenciar sites, permitindo atualizações fáceis de conteúdo, upload de mídia e manutenção geral do site por meio de uma interface intuitiva.`,
+// bgimage3p:`Um CMS (Sistema de Gestão de Conteúdo) é um aplicativo de software que permite aos usuários criar, gerenciar e modificar conteúdo digital sem a necessidade de conhecimentos técnicos especializados. Ele é comumente usado para gerenciar sites, permitindo atualizações fáceis de conteúdo, upload de mídia e manutenção geral do site por meio de uma interface intuitiva.`,
 col1NAV_EV1a:'Carregamento residencial',
 col2NAV_EV2a:'Carregamento público',
 col3NAV_EV3a:'Sistema de Gestão de Conteúdo',
@@ -360,7 +358,7 @@ row3_Home_1h2:'Wohnheim-Ladegerät für Elektrofahrzeuge',
 row3_Home_1p:`Ein Wohnheim-Ladegerät für Elektrofahrzeuge ermöglicht es den Fahrzeugbesitzern, ihre Autos bequem zu Hause aufzuladen. Es bietet schnellere Ladegeschwindigkeiten im Vergleich zu herkömmlichen Steckdosen, gewährleistet Sicherheit und ist ideal zum Aufladen über Nacht. Diese Ladegeräte sind einfach zu installieren und helfen, die Abhängigkeit von öffentlichen Ladestationen zu verringern.`,
 row3_Home_2h2:'Öffentliches Laden',
 row3_Home_2p:`Öffentliche Ladestationen für Elektrofahrzeuge bieten den Nutzern die Möglichkeit, ihre Fahrzeuge bequem außerhalb des Hauses aufzuladen. Diese Stationen befinden sich häufig auf Parkplätzen, in Einkaufszentren, an Autobahnen und in städtischen Gebieten und bieten schnelle und zuverlässige Lademöglichkeiten zur Unterstützung von Langstreckenfahrten und dem täglichen Pendeln.`,
-bgimage3p:`Ein CMS (Content-Management-System) ist eine Softwareanwendung, die es Benutzern ermöglicht, digitale Inhalte zu erstellen, zu verwalten und zu bearbeiten, ohne spezielles technisches Wissen zu benötigen. Es wird häufig zur Verwaltung von Websites verwendet und ermöglicht einfache Inhaltsaktualisierungen, das Hochladen von Medien sowie die allgemeine Wartung der Seite über eine benutzerfreundliche Oberfläche.`,
+// bgimage3p:`Ein CMS (Content-Management-System) ist eine Softwareanwendung, die es Benutzern ermöglicht, digitale Inhalte zu erstellen, zu verwalten und zu bearbeiten, ohne spezielles technisches Wissen zu benötigen. Es wird häufig zur Verwaltung von Websites verwendet und ermöglicht einfache Inhaltsaktualisierungen, das Hochladen von Medien sowie die allgemeine Wartung der Seite über eine benutzerfreundliche Oberfläche.`,
 col1NAV_EV1a:'Heimladen',
 col2NAV_EV2a:'Öffentliches Laden',
 col3NAV_EV3a:'Deutsche Übersetzung',
@@ -402,7 +400,7 @@ row3_Home_1h2:`Pengecas EV kediaman`,
 row3_Home_1p:`Pengecas EV kediaman membolehkan pemilik kenderaan elektrik mengecas kereta mereka dengan mudah di rumah. Ia menawarkan kelajuan pengecasan yang lebih pantas berbanding soket dinding standard, memastikan keselamatan, dan sesuai untuk pengecasan semalaman. Pengecas ini mudah dipasang dan membantu mengurangkan pergantungan pada stesen pengecas awam.`,
 row3_Home_2h2:'Caj Awam',
 row3_Home_2p:'Stesen pengecas EV awam menyediakan pengguna kenderaan elektrik dengan kemudahan mengecas kenderaan mereka semasa berada di luar rumah. Stesen ini biasanya ditemui di tempat letak kereta, pusat membeli-belah, lebuh raya dan kawasan bandar, menawarkan pilihan pengecasan yang pantas dan boleh dipercayai untuk menyokong perjalanan jarak jauh dan ulang-alik harian.',
-bgimage3p:`CMS (Sistem Pengurusan Kandungan) ialah aplikasi perisian yang membolehkan pengguna mencipta, mengurus dan mengubah suai kandungan digital tanpa memerlukan pengetahuan teknikal khusus. Ia biasanya digunakan untuk mengurus tapak web, membenarkan kemas kini kandungan yang mudah, muat naik media, dan penyelenggaraan tapak keseluruhan melalui antara muka yang intuitif.`,
+// bgimage3p:`CMS (Sistem Pengurusan Kandungan) ialah aplikasi perisian yang membolehkan pengguna mencipta, mengurus dan mengubah suai kandungan digital tanpa memerlukan pengetahuan teknikal khusus. Ia biasanya digunakan untuk mengurus tapak web, membenarkan kemas kini kandungan yang mudah, muat naik media, dan penyelenggaraan tapak keseluruhan melalui antara muka yang intuitif.`,
 col1NAV_EV1a:'pengecasan kediaman',
 col2NAV_EV2a:'Caj Awam',
 col3NAV_EV3a:'Sistem Pengurusan Kandungan',
@@ -444,7 +442,7 @@ row3_Home_1h2:'เครื่องชาร์จ EV สำหรับที�
 row3_Home_1p:`เครื่องชาร์จรถยนต์ไฟฟ้าสำหรับที่พักอาศัยช่วยให้เจ้าของรถยนต์ไฟฟ้าสามารถชาร์จรถยนต์ที่บ้านได้อย่างสะดวกสบาย เครื่องชาร์จนี้ให้ความเร็วในการชาร์จที่เร็วกว่าปลั๊กไฟทั่วไป มั่นใจได้ถึงความปลอดภัย และเหมาะสำหรับการชาร์จข้ามคืน เครื่องชาร์จเหล่านี้ติดตั้งง่ายและช่วยลดการพึ่งพาสถานีชาร์จสาธารณะ`,
 row3_Home_2h2:'การชาร์จสาธารณะ',
 row3_Home_2p:`สถานีชาร์จรถยนต์ไฟฟ้าสาธารณะมอบความสะดวกสบายให้กับผู้ใช้รถยนต์ไฟฟ้าในการชาร์จรถยนต์แม้อยู่นอกบ้าน สถานีเหล่านี้มักพบในลานจอดรถ ศูนย์การค้า ทางหลวง และเขตเมือง มอบทางเลือกในการชาร์จที่รวดเร็วและเชื่อถือได้ เพื่อรองรับการเดินทางระยะไกลและการเดินทางในชีวิตประจำวัน`,
-bgimage3p:`CMS (Content Management System) คือแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ผู้ใช้สามารถสร้าง จัดการ และแก้ไขเนื้อหาดิจิทัลได้โดยไม่จำเป็นต้องมีความรู้ทางเทคนิคเฉพาะทาง โดยทั่วไปแล้ว CMS จะใช้ในการจัดการเว็บไซต์ ช่วยให้อัปเดตเนื้อหา อัปโหลดสื่อ และบำรุงรักษาเว็บไซต์โดยรวมได้อย่างง่ายดายผ่านอินเทอร์เฟซที่ใช้งานง่าย`,
+// bgimage3p:`CMS (Content Management System) คือแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ผู้ใช้สามารถสร้าง จัดการ และแก้ไขเนื้อหาดิจิทัลได้โดยไม่จำเป็นต้องมีความรู้ทางเทคนิคเฉพาะทาง โดยทั่วไปแล้ว CMS จะใช้ในการจัดการเว็บไซต์ ช่วยให้อัปเดตเนื้อหา อัปโหลดสื่อ และบำรุงรักษาเว็บไซต์โดยรวมได้อย่างง่ายดายผ่านอินเทอร์เฟซที่ใช้งานง่าย`,
 col1NAV_EV1a:'การชาร์จที่อยู่อาศัย',
 col2NAV_EV2a:'การชาร์จสาธารณะ',
 col3NAV_EV3a:'ระบบการจัดการเนื้อหา',
@@ -570,6 +568,7 @@ useEffect(() => {
 
 
 
+
 <div className="main1_Home" >
   <div className="container1NAV2_1" >
     <div className="row1NAV2_1">
@@ -610,6 +609,8 @@ useEffect(() => {
 
 
 
+
+
 <div className="cont1_nav" >
   <div className="row1_Nav">
      <Link href="/AC_WALLBOX" style={{whiteSpace:"nowrap" , textDecoration:"None"}}>
@@ -635,10 +636,12 @@ useEffect(() => {
 
 
   <div className="container1_Home" >
-<video autoPlay loop muted src="/Videos/vnt-home.mp4" />
+{/* <video autoPlay loop muted src="/Videos/vnt-home.mp4" /> */}
+<video autoPlay loop muted src="/Videos/vnt-home3.mp4" />
   </div>
 
 {/* popup ?  */}
+
 
 
 
@@ -824,21 +827,21 @@ useEffect(() => {
 <div className="container11_Home">
   <div className="row17_Home">
     <div className="col24_Home">
-         <Image src="/Images/Home-ev.jpg" width={410} height={296} alt="" />
+         <Image src="/Images/Cguide.png" width={410} height={296} alt="Cguide" />
       <h3>{t.cont11col241}</h3>
   <p>
  {t.cont11col242}
 </p>
     </div>
     <div className="col25_Home">
-          <Image src="/Images/Home-blog.jpg" width={410} height={296} alt="" />
+          <Image src="/Images/Cjournal.png" width={410} height={296} alt="Cjournal" />
       <h3>{t.col25homeh3}</h3>
       <p>
  {t.col25homep}
 </p>
     </div>
     <div className="col26_Home">
-      <Image src="/Images/newsroom.png" width={410} height={296} alt="newsroom" />
+      <Image src="/Images/Cnewsroom.png" width={410} height={296} alt="Cnewsroom" />
       <h3>{t.col26homeh3}</h3>
       <p>
  {t.col26homep}</p>
@@ -867,7 +870,7 @@ useEffect(() => {
         </div>
         <div className="row25_Home">
           <div className="col38_Home">
-            <Link href="#">{t.col38homea}</Link>
+            <Link href="https://vnt.in/contact-us/">{t.col38homea}</Link>
           </div>
         </div>
       </div>

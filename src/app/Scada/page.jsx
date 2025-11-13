@@ -114,10 +114,8 @@ const scacli8 = () => {
                 </div>
                 <div className="container2_Scada">
                     <div className="col2_Scada">
-                        <h4>VNT SCADA+® – Real-Time SCADA System for Power System Monitoring & Control</h4>
-                        <p>VNT SCADA+® is an advanced SCADA (Supervisory Control and Data Acquisition) solution designed for real-time power system monitoring and management. Built on a robust Client-Server architecture, it offers seamless operation for dispatching centers and operation control centers.
-Engineered for flexibility, VNT SCADA+® supports a wide range of configuration options, making it fully adaptable to the unique scope and technical specifications of each project. Its compatibility with diverse field devices ensures full system integration, compliance with modern industry standards, and readiness for future scalability.
-Whether for grid management, substation control, or energy distribution monitoring, VNT SCADA+® provides a reliable, customizable, and future-ready SCADA platform for today's energy infrastructure.</p>
+                        <h4>VNT SCADA+® – Power Monitoring & Control SCADA System</h4>
+                        <p>VNT SCADA+® is a next-generation SCADA solution for real-time power system monitoring, control, and management. Built on a reliable client-server architecture, it ensures smooth operation for dispatch and control centers. With flexible configuration, broad device compatibility, and full scalability, VNT SCADA+® delivers seamless integration and future-ready performance for grid, substation, and energy distribution systems.</p>
                     </div>
                 </div>
                 <div className="container3_Scada">

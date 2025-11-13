@@ -153,8 +153,8 @@ font-size: 20px;
 
 .col1_Footer img {
   padding-top: 40px;
-  padding-left: 0;
-  max-width: 200px;
+  padding-left: 90px;
+  max-width: 500px;
 }
 
 .col1_Footer h3 {
@@ -162,6 +162,7 @@ font-size: 20px;
   font-size: 40px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
+  padding-left: 42px;
   padding-top: 20px;
 }
 
@@ -230,7 +231,8 @@ font-size: 20px;
 
 @media (min-width: 1024px) {
   .col1_Footer h3 {
-    font-size: 56px;
+            font-size: 43px;
+        margin-left: 50px;
   }
 
   .col2_Footer h4,

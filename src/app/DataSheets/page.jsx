@@ -3,7 +3,6 @@
     import React from 'react';
 import "../../Styles/DataSheets.css"
 
-
 export default function DataSheets(){
       const handleClick = () => {
         confirm('Button clicked! access to DOWNLOAD VNT Brochure');

@@ -1,7 +1,6 @@
 import "../../Styles/OurProcess.css"
 import Image from "next/image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faCheck } from '@fortawesome/free-solid-svg-icons'
+
 export default function OurProcess(){
     return(
         <>
@@ -12,6 +11,7 @@ export default function OurProcess(){
                     <h3>Our Process</h3>
                 </div>
 
+
             </div>
 <div className="container2_OurProcess">
     <div className="col2_OurProcess">
@@ -19,7 +19,7 @@ export default function OurProcess(){
     </div>
 
 </div>
-<div className="container3_Ourprocess">
+{/* <div className="container3_Ourprocess">
     <div className="row1_OurProcess">
     <div className="col3_OurProcess">
         <h3>Define - Understanding Your Energy Needs</h3>
@@ -60,6 +60,47 @@ export default function OurProcess(){
    </ul>
     </div>
 </div>
+</div> */}
+<div className="container3_OurProcess">
+    <div className="row1_OurProcess">
+        <div className="col3_OurProcess">
+            <h2>Energy Insights</h2>
+            <h3>The smarter way to understand and fulfill your energy needs.</h3>
+            <p>Get tailored insights and smart solutions designed to optimize your energy consumption effectively. We help you identify your exact energy requirements, analyze usage patterns, and guide you toward the most efficient and sustainable options. Whether it’s reducing costs, improving efficiency, or adopting renewable alternatives, our approach makes energy management simple, transparent, and future-ready. With the right balance of technology and strategy, we ensure that your energy journey is not only cost-effective but also aligned with long-term sustainability goals</p>
+        </div>
+        <div className="col4_OurProcess"></div>
+    </div>
+</div>
+<div className="container4_OurProcess">
+    <div className="row2_OurProcess">
+        <div className="col5_OurProcess">
+        </div>
+        <div className="col6_OurProcess">
+            <h2>Crafted Solutions, Designed for You</h2>
+            <h3>Personalized strategies to meet your unique energy goals with efficiency and innovation.</h3>
+            <p>Our approach is not one-size-fits-all. We design and craft tailored solutions that perfectly align with your specific energy needs. By combining advanced insights, innovative strategies, and sustainable practices, we help you achieve the right balance between performance, cost savings, and long-term reliability. From initial analysis to final implementation, every solution is built around you—ensuring smarter choices and measurable results for a more efficient future.</p>
+        </div>
+    </div>
+</div>
+<div className="container5_OurProcess">
+    <div className="row3_OurProcess">
+        <div className="col7_OurProcess">
+            <h2>Envisioning a Sustainable Tomorrow</h2>
+            <h3>See the possibilities, plan with purpose, and embrace a greener future.</h3>
+            <p>We help you visualize a sustainable future by combining innovative energy solutions with strategic planning. Our approach allows you to identify opportunities for efficiency, renewable adoption, and long-term cost savings. By envisioning the right strategies today, you can create measurable impact tomorrow—reducing environmental footprint while ensuring energy reliability and performance. From smart technologies to actionable insights, we guide you toward a future that is efficient, sustainable, and resilient.</p>
+        </div>
+        <div className="col8_OurProcess"></div>
+    </div>
+</div>
+<div className="container6_OurProcess">
+    <div className="row4_OurProcess">
+        <div className="col9_OurProcess"></div>
+        <div className="col10_OurProcess">
+            <h2>Implementing Innovative Energy Systems</h2>
+            <h3>Delivering, maintaining, and optimizing solutions for long-term efficiency.</h3>
+            <p>Our team ensures that every innovative system we design is implemented flawlessly and maintained for peak performance. From initial deployment to ongoing monitoring, we focus on reliability, efficiency, and sustainability. By integrating cutting-edge technologies with strategic management practices, we deliver solutions that not only meet your current energy needs but also adapt to future demands. With continuous support and optimization, your systems remain cost-effective, high-performing, and aligned with long-term sustainability goals.</p>
+        </div>
+    </div>
 </div>
         </div>
         </>
@@ -67,50 +108,3 @@ export default function OurProcess(){
     )
 }
 
-
-// import Image from "next/image"
-// import "../../Styles/OurProcess.css"
-// import Head from "next/head"
-
-// export default function OurProcess(){
-//     return(
-//         <>
-
-
-// <Head>                
-//   <title>Our Process | VNT - From Planning to Execution with Precision</title>
-
-//   <meta
-//     name="description"
-//     content="Explore VNT’s step-by-step project execution process — from consultation and planning to installation, commissioning, and after-sales support. Designed to deliver reliable and efficient energy solutions across India."
-//   />
-
-//   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-//   <meta name="robots" content="index, follow" />
-
-//   <meta property="og:title" content="VNT | Our Process - How We Deliver Energy Solutions" />
-//   <meta property="og:description" content="Learn how VNT ensures quality and efficiency through its structured process — from requirement analysis and design to implementation and support." />
-//   <meta property="og:type" content="website" />
-//   <meta property="og:url" content="https://vnt.in/about/OurProcess/" />
-//   <meta property="og:site_name" content="VNT" />
-
-//   <meta
-//     name="keywords"
-//     content="VNT process, how VNT works, energy solution process, solar installation steps, project execution India, consultation to commissioning, energy services workflow"
-//   />
-// </Head>
-
-
-//         <div className="main1_OurProcess">
-//             <div className="container1_OurProcess">
-//                 <div className="row1_OurProcess">
-//                 <h2>Our Process</h2>
-//                     <div className="col1_OurProcess">
-//                     <Image src="/Images/ourprocess.png" width={1200} height={550} alt="ourprocess" />
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//         </>
-//     )
-// }

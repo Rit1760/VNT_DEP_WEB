@@ -11,7 +11,8 @@ export default function Footer(){
             <div className="container1_Footer">
                 <div className="row1_Footer">
                     <div className="col1_Footer">
-                        <Image src="/Images/VNT-logo.png" width={120} height={100} alt="VNT-LOGO"/>
+                        {/* <Image src="/Images/VNT-logo.png" width={120} height={100} alt="VNT-LOGO"/> */}
+                        <Image src="/Images/iventio.png" width={290} height={90} alt="VNT-LOGO"/>
                         <h3>Powering Progress with VNT</h3>
                         <FontAwesomeIcon icon={faLinkedin}  /><FontAwesomeIcon icon={faX}  />
                     </div> 
