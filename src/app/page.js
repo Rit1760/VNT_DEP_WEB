@@ -814,7 +814,7 @@ useEffect(() => {
   </div>
 </div>
 <div className="container9_Home">
-<video autoPlay loop muted src="/Videos/vnt-home2.mp4"/>
+<video autoPlay loop muted src="/Videos/vnt-home2.MP4"/>
 </div>
 <div className="container10_Home">
   <div className="row16_Home">
