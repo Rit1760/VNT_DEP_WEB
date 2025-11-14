@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
       <body>
               {/* <div id="crsr"></div> */}
         <Loading>
+          <Header />
         <IcoHeader />
         {children}
         <Footer/>
