@@ -261,12 +261,12 @@ const toggleLanguage = () => {
 
 
       </div>
-      <div className="col2NAV2_1">
+      {/* <div className="col2NAV2_1">
 <select id="color" onChange={riti}>
   <option value="#FAFAFA"> ⚪</option>     
   <option value="#B0AFAF"> ⚙️</option>      
 </select>
-      </div>
+      </div> */}
     </div>
   </div>
 
