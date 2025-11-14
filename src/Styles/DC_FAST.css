@@ -642,6 +642,9 @@ width: 83%;
 .col11_Public{
   width: 50%;
 }
+.col10_Public h3{
+      font-family: 'Lato', sans-serif;
+}
 
 .col11_Public img{
   border-radius: 20px;

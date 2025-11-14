@@ -26,6 +26,8 @@ export default function RootLayout({ children }) {
   //     document.removeEventListener("mousemove", moveCursor);
   //   };
   // }, []);
+
+  
   return (
     <html lang="en">
       <body>
