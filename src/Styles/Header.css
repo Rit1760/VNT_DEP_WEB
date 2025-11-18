@@ -214,7 +214,7 @@ margin-left: 10px;
 /* four dropdown section end  */
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
 
 
@@ -225,5 +225,103 @@ margin-left: 10px;
         font-size: 34px;
         display: block;
     }
-}
+} */
 /* nav changes end  */
+
+
+
+.mobileHamburger {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+
+       .mobileHamburger {
+    display: block;
+    top: 15px;
+    right: 20px;  
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 10000;
+  }
+  .col2_Nav {
+    width: 90%;
+    max-width: 100%;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(127, 127, 127, 0.9);
+    border-radius: 15px;
+  }
+
+  .col2_Nav ul {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .col2_Nav ul.active {
+    display: flex;
+  } 
+
+  .col2_Nav li {
+    width: 100%;
+    padding: 12px 15px;
+    margin-left: 0;
+    border-radius: 10px;
+  }
+
+  .col2_Nav li:hover {
+    transform: none;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Dropdowns: full width below menu item */
+  .container2_NAV,
+  .container3_NAV,
+  .container4_NAV {
+    width: 90% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: auto;
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  .col3_NAV li,
+  .col4_NAV li,
+  .col5_NAV li {
+    font-size: 18px;
+    padding: 12px 0;
+    transform: none;
+  }
+
+  /* Hamburger icon */
+  .mobileHamburger {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  /* Hide desktop hover dropdowns */
+  .container2_NAV,
+  .container3_NAV,
+  .container4_NAV {
+    display: none;
+  }
+
+  .container2_NAV.active,
+  .container3_NAV.active,
+  .container4_NAV.active {
+    display: block;
+  }
+}
