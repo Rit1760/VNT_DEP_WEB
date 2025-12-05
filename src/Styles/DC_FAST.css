@@ -1249,7 +1249,7 @@ ease-in-out;
 }
 
 @media(min-width:768px)and (max-width:1024px){
-.col133_Public h4 {
+.col133_Public h4 ,.col133_Public h4 {
     text-align: center;
     width: 100%;
     padding-left: 1%;
@@ -1257,12 +1257,12 @@ ease-in-out;
     font-size: 56px;
     font-weight: 500;
 }
-    .col133_Public h4 {
+    /* .col133_Public h4 {
         text-align: center;
         width: 100%;
         padding-left: 1%;
         font-size: 56px;
-    }
+    } */
     .col133_Public {
     text-align: center;
     width: 100%;
