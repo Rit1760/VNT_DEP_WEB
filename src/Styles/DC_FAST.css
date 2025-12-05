@@ -1127,7 +1127,7 @@ ease-in-out;
 }
 .col2_Public_copy img {
     border-radius: 20px;
-                width: 339px;
+    width: 339px;
     height: 300px;
 }
 .row22_Public_copy {
@@ -1257,12 +1257,7 @@ ease-in-out;
     font-size: 56px;
     font-weight: 500;
 }
-    /* .col133_Public h4 {
-        text-align: center;
-        width: 100%;
-        padding-left: 1%;
-        font-size: 56px;
-    } */
+
     .col133_Public {
     text-align: center;
     width: 100%;
