@@ -19,7 +19,6 @@ export default function LoadingWrapper({ children }) {
         right: 0,
         bottom: 0,
         backgroundColor: "#000",
-        // color: "#2391fb",
         color: "#ff6600",
         display: "flex",
         justifyContent: "center",

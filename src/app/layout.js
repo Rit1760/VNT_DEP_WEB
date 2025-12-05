@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import gsap from 'gsap';
 import Loading from "./Loading.jsx"; 
 import './globals.css';
+import { LanguageProvider } from "@/context/LanguageContext";
+
 
 
 export default function RootLayout({ children }) {
@@ -35,7 +37,9 @@ export default function RootLayout({ children }) {
         <Loading>
           <Header />
         <IcoHeader />
+          <LanguageProvider>
         {children}
+            </ LanguageProvider >
         <Footer/>
         </Loading>
       </body>
