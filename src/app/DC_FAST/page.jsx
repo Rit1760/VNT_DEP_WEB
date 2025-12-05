@@ -687,7 +687,6 @@ In<span style={{color:"#ff6600"}}>v</span>e<span style={{color:"#ff6600"}}>n</sp
               <h2>{t.col19dch2}</h2>
               <h4>{t.col19dch4}</h4>
               <a href="https://vnt.in/Solutions/e-mobility-products/">Find out More</a>
-              <p>RITIKJ</p>
             </div>
           </div>
         </div>
