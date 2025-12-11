@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSmog , faBolt ,  faGlobe ,faHandshake ,faMarsDouble    } from '@fortawesome/free-solid-svg-icons'
 import Link from "next/link";
 import Head from "next/head";
-import ScrollVideo from "@/components/ScrollVideo";
- import LanguageSelector from "@/components/LanguageSelector";
+import ScrollVideo from "@/Components/ScrollVideo";
+ import LanguageSelector from "@/Components/LanguageSelector";
  import { useLanguage } from "@/context/LanguageContext";
 
 
