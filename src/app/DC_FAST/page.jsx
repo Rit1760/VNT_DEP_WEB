@@ -8,7 +8,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Head from 'next/head';
-import LanguageSelector from "@/components/LanguageSelector";
+import LanguageSelector from "@/Components/LanguageSelector";
 import { useLanguage } from "@/context/LanguageContext";
 gsap.registerPlugin(ScrollTrigger);
 export default function DC_FAST() {

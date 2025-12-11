@@ -3,7 +3,7 @@
 import "../../Styles/CMS.css"
 import Image from "next/image" 
 import Link from "next/link"
- import LanguageSelector from "@/components/LanguageSelector";
+ import LanguageSelector from "@/Components/LanguageSelector";
  import { useLanguage } from "@/context/LanguageContext";
 
 export default function CMS(){
