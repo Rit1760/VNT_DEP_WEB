@@ -196,7 +196,6 @@ row3_Home_1h2:'Residential EV Charger',
 row3_Home_1p:`A Residential EV Charger makes home charging simple, safe, and efficient, ensuring your electric car is always ready to drive. With compact design and smart features, it offers reliable performance tailored for everyday use. Perfect for EV owners seeking convenient and cost-effective charging at home.`,
 row3_Home_2h2:'Public Charger',
 row3_Home_2p:`Our Fast EV Chargers provide ultra-fast, safe, and reliable charging across urban hubs, highways, and public spaces, enabling seamless travel and supporting electric mobility adoption.`,
-// bgimage3p:`Our CMS and mobile app (Android & iOS) enable real-time EV charger monitoring and control with remote access, secure payments, live status, and smart analytics—ensuring seamless management for operators and convenience for drivers. `,
 col1NAV_EV1a:'Residential charging',
 col2NAV_EV2a:'Public Charging',
 col3NAV_EV3a:' Content Management System',
@@ -390,7 +389,6 @@ row3_Home_1h2:'घरेलू ईवी चार्जर',
 row3_Home_1p:`एक घरेलू ईवी चार्जर इलेक्ट्रिक वाहन मालिकों को अपने वाहन को घर पर आसानी से चार्ज करने की सुविधा प्रदान करता है। यह सामान्य विद्युत सॉकेट की तुलना में तेज़ चार्जिंग गति देता है, सुरक्षा सुनिश्चित करता है, और रात भर चार्जिंग के लिए आदर्श होता है। ये चार्जर इंस्टॉल करने में आसान होते हैं और सार्वजनिक चार्जिंग स्टेशन पर निर्भरता कम करने में मदद करते हैं।`,
 row3_Home_2h2:'सार्वजनिक चार्जिंग',
 row3_Home_2p:`सार्वजनिक ईवी चार्जिंग स्टेशन इलेक्ट्रिक वाहन उपयोगकर्ताओं को घर से दूर रहते हुए अपने वाहन चार्ज करने की सुविधा प्रदान करते हैं। ये स्टेशन आमतौर पर पार्किंग स्थल, शॉपिंग सेंटर, हाईवे, और शहरी क्षेत्रों में पाए जाते हैं, जो तेज़ और भरोसेमंद चार्जिंग विकल्प प्रदान करते हैं ताकि लंबी दूरी की यात्रा और दैनिक आवागमन का समर्थन किया जा सके।`,
-// bgimage3p:`CMS (कंटेंट मैनेजमेंट सिस्टम) एक सॉफ़्टवेयर एप्लिकेशन होता है जो उपयोगकर्ताओं को बिना किसी विशेष तकनीकी ज्ञान के डिजिटल सामग्री को बनाने, प्रबंधित करने और संशोधित करने में सक्षम बनाता है। इसे आमतौर पर वेबसाइटों के प्रबंधन के लिए उपयोग किया जाता है, जो आसान कंटेंट अपडेट, मीडिया अपलोड और वेबसाइट के समग्र रखरखाव को एक सहज इंटरफेस के माध्यम से संभव बनाता है।`,
 col1NAV_EV1a:'आवासीय चार्जिंग',
 col2NAV_EV2a:'सार्वजनिक चार्जिंग',
 col3NAV_EV3a:' सामग्री प्रबंधन प्रणाली',
@@ -572,7 +570,6 @@ row3_Home_1h2:'شاحن المركبات الكهربائية المنزلي',
 row3_Home_1p:`تيح شاحن المركبات الكهربائية المنزلي لأصحاب السيارات الكهربائية شحن سياراتهم بسهولة داخل المنزل. يوفر سرعات شحن أسرع مقارنة بالمقابس الكهربائية العادية، ويضمن الأمان، وهو مثالي للشحن طوال الليل. هذه الشواحن سهلة التركيب وتساعد في تقليل الاعتماد على محطات الشحن العامة.`,
 row3_Home_2h2:' الشحن العام',
 row3_Home_2p:`توفر محطات شحن المركبات الكهربائية العامة للمستخدمين إمكانية شحن سياراتهم أثناء التنقل بعيداً عن المنزل. توجد هذه المحطات عادةً في مواقف السيارات ومراكز التسوق والطرق السريعة والمناطق الحضرية، وتقدم خيارات شحن سريعة وموثوقة لدعم الرحلات الطويلة والتنقل اليومي.`,
-// bgimage3p:`نظام إدارة المحتوى (CMS) هو تطبيق برمجي يتيح للمستخدمين إنشاء وإدارة وتعديل المحتوى الرقمي دون الحاجة إلى معرفة تقنية متخصصة. يُستخدم عادةً لإدارة المواقع الإلكترونية، مما يسمح بتحديث المحتوى بسهولة، وتحميل الوسائط، وصيانة الموقع بشكل عام من خلال واجهة سهلة الاستخدام وبديهية.`,
 col1NAV_EV1a:'الشحن السكني',
 col2NAV_EV2a:'الشحن العام',
 col3NAV_EV3a:'نظام إدارة المحتوى',
@@ -746,7 +743,6 @@ row3_Home_1h2:'Cargador residencial para vehículos eléctricos',
 row3_Home_1p:`Un cargador residencial para vehículos eléctricos permite a los propietarios cargar sus autos cómodamente en casa. Ofrece velocidades de carga más rápidas en comparación con los enchufes estándar, garantiza seguridad y es ideal para cargar durante la noche. Estos cargadores son fáciles de instalar y ayudan a reducir la dependencia de las estaciones de carga públicas.`,
 row3_Home_2h2:'Carga pública',
 row3_Home_2p:`Las estaciones públicas de carga para vehículos eléctricos brindan a los usuarios la comodidad de cargar sus vehículos cuando están fuera de casa. Estas estaciones se encuentran comúnmente en estacionamientos, centros comerciales, autopistas y áreas urbanas, ofreciendo opciones de carga rápidas y confiables para apoyar viajes de larga distancia y desplazamientos diarios.`,
-// bgimage3p:`Un CMS (Sistema de Gestión de Contenidos) es una aplicación de software que permite a los usuarios crear, gestionar y modificar contenido digital sin necesidad de conocimientos técnicos especializados. Se utiliza comúnmente para administrar sitios web, facilitando la actualización de contenido, la carga de medios y el mantenimiento general del sitio a través de una interfaz intuitiva.`,
 col1NAV_EV1a:'Carga residencial',
 col2NAV_EV2a:'Carga pública',
 col3NAV_EV3a:'Sistema de Gestión de Contenidos',
@@ -934,7 +930,6 @@ row3_Home_1h2:'Carregador residencial para veículos elétricos',
 row3_Home_1p:`Um carregador residencial para veículos elétricos permite que os proprietários carreguem seus carros confortavelmente em casa. Ele oferece velocidades de carregamento mais rápidas em comparação com tomadas padrão, garante segurança e é ideal para carregamento durante a noite. Esses carregadores são fáceis de instalar e ajudam a reduzir a dependência de estações públicas de carregamento.`,
 row3_Home_2h2:'Carregamento público',
 row3_Home_2p:`As estações públicas de carregamento para veículos elétricos oferecem aos usuários a conveniência de carregar seus veículos fora de casa. Essas estações são comumente encontradas em estacionamentos, shoppings, rodovias e áreas urbanas, oferecendo opções de carregamento rápidas e confiáveis para apoiar viagens de longa distância e deslocamentos diários.`,
-// bgimage3p:`Um CMS (Sistema de Gestão de Conteúdo) é um aplicativo de software que permite aos usuários criar, gerenciar e modificar conteúdo digital sem a necessidade de conhecimentos técnicos especializados. Ele é comumente usado para gerenciar sites, permitindo atualizações fáceis de conteúdo, upload de mídia e manutenção geral do site por meio de uma interface intuitiva.`,
 col1NAV_EV1a:'Carregamento residencial',
 col2NAV_EV2a:'Carregamento público',
 col3NAV_EV3a:'Sistema de Gestão de Conteúdo',
@@ -1124,7 +1119,6 @@ row3_Home_1h2:'Wohnheim-Ladegerät für Elektrofahrzeuge',
 row3_Home_1p:`Ein Wohnheim-Ladegerät für Elektrofahrzeuge ermöglicht es den Fahrzeugbesitzern, ihre Autos bequem zu Hause aufzuladen. Es bietet schnellere Ladegeschwindigkeiten im Vergleich zu herkömmlichen Steckdosen, gewährleistet Sicherheit und ist ideal zum Aufladen über Nacht. Diese Ladegeräte sind einfach zu installieren und helfen, die Abhängigkeit von öffentlichen Ladestationen zu verringern.`,
 row3_Home_2h2:'Öffentliches Laden',
 row3_Home_2p:`Öffentliche Ladestationen für Elektrofahrzeuge bieten den Nutzern die Möglichkeit, ihre Fahrzeuge bequem außerhalb des Hauses aufzuladen. Diese Stationen befinden sich häufig auf Parkplätzen, in Einkaufszentren, an Autobahnen und in städtischen Gebieten und bieten schnelle und zuverlässige Lademöglichkeiten zur Unterstützung von Langstreckenfahrten und dem täglichen Pendeln.`,
-// bgimage3p:`Ein CMS (Content-Management-System) ist eine Softwareanwendung, die es Benutzern ermöglicht, digitale Inhalte zu erstellen, zu verwalten und zu bearbeiten, ohne spezielles technisches Wissen zu benötigen. Es wird häufig zur Verwaltung von Websites verwendet und ermöglicht einfache Inhaltsaktualisierungen, das Hochladen von Medien sowie die allgemeine Wartung der Seite über eine benutzerfreundliche Oberfläche.`,
 col1NAV_EV1a:'Heimladen',
 col2NAV_EV2a:'Öffentliches Laden',
 col3NAV_EV3a:'Deutsche Übersetzung',
@@ -1312,7 +1306,6 @@ row3_Home_1h2:`Pengecas EV kediaman`,
 row3_Home_1p:`Pengecas EV kediaman membolehkan pemilik kenderaan elektrik mengecas kereta mereka dengan mudah di rumah. Ia menawarkan kelajuan pengecasan yang lebih pantas berbanding soket dinding standard, memastikan keselamatan, dan sesuai untuk pengecasan semalaman. Pengecas ini mudah dipasang dan membantu mengurangkan pergantungan pada stesen pengecas awam.`,
 row3_Home_2h2:'Caj Awam',
 row3_Home_2p:'Stesen pengecas EV awam menyediakan pengguna kenderaan elektrik dengan kemudahan mengecas kenderaan mereka semasa berada di luar rumah. Stesen ini biasanya ditemui di tempat letak kereta, pusat membeli-belah, lebuh raya dan kawasan bandar, menawarkan pilihan pengecasan yang pantas dan boleh dipercayai untuk menyokong perjalanan jarak jauh dan ulang-alik harian.',
-// bgimage3p:`CMS (Sistem Pengurusan Kandungan) ialah aplikasi perisian yang membolehkan pengguna mencipta, mengurus dan mengubah suai kandungan digital tanpa memerlukan pengetahuan teknikal khusus. Ia biasanya digunakan untuk mengurus tapak web, membenarkan kemas kini kandungan yang mudah, muat naik media, dan penyelenggaraan tapak keseluruhan melalui antara muka yang intuitif.`,
 col1NAV_EV1a:'pengecasan kediaman',
 col2NAV_EV2a:'Caj Awam',
 col3NAV_EV3a:'Sistem Pengurusan Kandungan',
@@ -1504,7 +1497,6 @@ row3_Home_1h2:'เครื่องชาร์จ EV สำหรับที�
 row3_Home_1p:`เครื่องชาร์จรถยนต์ไฟฟ้าสำหรับที่พักอาศัยช่วยให้เจ้าของรถยนต์ไฟฟ้าสามารถชาร์จรถยนต์ที่บ้านได้อย่างสะดวกสบาย เครื่องชาร์จนี้ให้ความเร็วในการชาร์จที่เร็วกว่าปลั๊กไฟทั่วไป มั่นใจได้ถึงความปลอดภัย และเหมาะสำหรับการชาร์จข้ามคืน เครื่องชาร์จเหล่านี้ติดตั้งง่ายและช่วยลดการพึ่งพาสถานีชาร์จสาธารณะ`,
 row3_Home_2h2:'การชาร์จสาธารณะ',
 row3_Home_2p:`สถานีชาร์จรถยนต์ไฟฟ้าสาธารณะมอบความสะดวกสบายให้กับผู้ใช้รถยนต์ไฟฟ้าในการชาร์จรถยนต์แม้อยู่นอกบ้าน สถานีเหล่านี้มักพบในลานจอดรถ ศูนย์การค้า ทางหลวง และเขตเมือง มอบทางเลือกในการชาร์จที่รวดเร็วและเชื่อถือได้ เพื่อรองรับการเดินทางระยะไกลและการเดินทางในชีวิตประจำวัน`,
-// bgimage3p:`CMS (Content Management System) คือแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ผู้ใช้สามารถสร้าง จัดการ และแก้ไขเนื้อหาดิจิทัลได้โดยไม่จำเป็นต้องมีความรู้ทางเทคนิคเฉพาะทาง โดยทั่วไปแล้ว CMS จะใช้ในการจัดการเว็บไซต์ ช่วยให้อัปเดตเนื้อหา อัปโหลดสื่อ และบำรุงรักษาเว็บไซต์โดยรวมได้อย่างง่ายดายผ่านอินเทอร์เฟซที่ใช้งานง่าย`,
 col1NAV_EV1a:'การชาร์จที่อยู่อาศัย',
 col2NAV_EV2a:'การชาร์จสาธารณะ',
 col3NAV_EV3a:'ระบบการจัดการเนื้อหา',
@@ -1513,7 +1505,6 @@ navitem2:'สาธารณะ',
 navitem3:'ซีเอ็มเอส/แอป',
 col38homea:'ต้องการความช่วยเหลือ? พูดคุยกับเรา',
     },
-    // ... baaki languages
   };
 
   return (
@@ -1525,14 +1516,3 @@ col38homea:'ต้องการความช่วยเหลือ? พู
 
 export const useLanguage = () => useContext(LanguageContext);
 
-
-// const toggleLanguage = () => {
-//   if (lang === 'en') setLang('hi');
-//   else if (lang === 'hi') setLang('ar');
-//   else if (lang === 'ar') setLang('es');
-//   else if (lang === 'es') setLang('pt-BR');  
-//   else if (lang === 'pt-BR') setLang('de');  
-//   else if (lang === 'de') setLang('ms');  
-//   else if (lang === 'ms') setLang('th');  
-//   else setLang('en');
-// };

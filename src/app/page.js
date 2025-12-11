@@ -2,70 +2,15 @@
 
 import "../Styles/Home.css";
 import { useEffect, useRef , useState} from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import CountUpCard from "@/Components/countUpCard";
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSmog } from '@fortawesome/free-solid-svg-icons'
-import { faBolt } from '@fortawesome/free-solid-svg-icons'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { faSmog , faBolt ,  faGlobe ,faHandshake ,faMarsDouble    } from '@fortawesome/free-solid-svg-icons'
 import Link from "next/link";
-import { faMarsDouble } from '@fortawesome/free-solid-svg-icons'
 import Head from "next/head";
 import ScrollVideo from "@/components/ScrollVideo";
  import LanguageSelector from "@/components/LanguageSelector";
  import { useLanguage } from "@/context/LanguageContext";
-
-const CountUpNumber = ({ end, label }) => {
-  const ref = useRef();
-  const [count, setCount] = useState(0);
-  const [hasAnimated, setHasAnimated] = useState(false);
-
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasAnimated) {
-          let start = 0;
-          const duration = 1000;
-          const stepTime = 20;
-          const steps = duration / stepTime;
-          const increment = end / steps;
-
-          const counter = setInterval(() => {
-            start += increment;
-            if (start >= end) {
-              setCount(end);
-              clearInterval(counter);
-            } else {
-              setCount(Math.floor(start));
-            }
-          }, stepTime);
-
-          setHasAnimated(true);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-
-    return () => {
-      if (ref.current) observer.unobserve(ref.current);
-    };
-  }, [end, hasAnimated]);
-
-  return (
-    <div ref={ref} style={{ margin: '30px 0', fontSize: '24px' }}>
-      <h3>{count}+</h3>
-      <h4>{label}</h4>
-    </div>
-  );
-};
-
-
-gsap.registerPlugin(ScrollTrigger);
 
 
 export default function Home() {
@@ -76,10 +21,8 @@ export default function Home() {
         setIsVisiblepop(!isVisiblepop);
       };
 
-
   const scrollRef = useRef(null);
   const locoScroll = useRef(null);
-
 
   useEffect(() => {
     if (!scrollRef.current) return;
@@ -94,76 +37,9 @@ export default function Home() {
     };
   }, []);
 
-
-
-
-  // useEffect(() => {
-  //   document.body.style.backgroundColor = bgColor;
-
-    
-
-  //   return () => {
-  //     document.body.style.backgroundColor = "";
-  //   };
-  // }, [bgColor]);
-
-
-
-// const videoRef = useRef(null);
-// const containerRef = useRef(null);
-
-// useEffect(() => {
-//   const video = videoRef.current;
-//   const container = containerRef.current;
-
-
-//   let scrollTriggerInstance;
-
-//   const handleScrollVideo = () => {
-//     if (scrollTriggerInstance) scrollTriggerInstance.kill(); 
-
-//     scrollTriggerInstance = ScrollTrigger.create({
-//       trigger: container,
-//       start: "top top",
-//       end: "+=3000",
-//       scrub: 0.5, 
-//       pin: true,
-//       onUpdate: (self) => {
-//         if (video && video.duration) {
-//           const scrollProgress = self.progress;
-//           video.currentTime = scrollProgress * video.duration;
-//         }
-//       },
-//     });
-//   };
-
-  
-
-//   const onVideoReady = () => {
-//     handleScrollVideo();
-//   };
-
-//   if (video.readyState >= 1) {
-//     onVideoReady();
-//   } else {
-//     video.addEventListener("loadedmetadata", onVideoReady);
-//   }
-
-
-//   return () => {
-//     video.removeEventListener("loadedmetadata", onVideoReady);
-//     if (scrollTriggerInstance) scrollTriggerInstance.kill();
-//   };
-// }, []);
-
-
-
-
   return (
 <>
-
  <LanguageSelector />
-
 <Head>                
   <title>VNT | Empowering India with Smart Energy, Solar & EV Solutions</title>
 
@@ -187,41 +63,7 @@ export default function Home() {
   />
 </Head>
 
-
-
-
 <div className="main1_Home" >
-  {/* <div className="container1NAV2_1" >
-    <div className="row1NAV2_1">
-      <div className="col1NAV2_1">
-
-<div
-  style={{
-    padding: '11px 20px',
-    fontFamily: lang === 'ar' ? "'Cairo', sans-serif" : 'Arial, sans-serif',
-  }}
-  dir={lang === 'ar' ? 'rtl' : 'ltr'}
-  lang={lang}
->
-  <select value={lang} onChange={(e) => setLang(e.target.value)} id="btnn"   >
-    <option  value="en">  English</option>
-    <option  value="hi"> Hindi</option>
-    <option  value="ar"> Arabic</option>
-    <option  value="es"> Spanish</option>
-    <option  value="pt-BR"> Portuguese (BR)</option>
-    <option  value="de"> German</option>
-    <option  value="ms">	Malay</option>
-    <option  value="th">	Thai</option>
-
-  </select>
-</div>
-
-
-      </div>
-
-    </div>
-  </div> */}
-
 
 <div className="cont1_nav" >
   <div className="row1_Nav">
@@ -241,6 +83,7 @@ export default function Home() {
     </div>
      </Link>
 
+
   </div>
 </div>
 
@@ -250,7 +93,6 @@ export default function Home() {
   <div className="container1_Home" >
 <video autoPlay loop muted src="/Videos/vnt-home3.mp4" />
   </div>
-
 
 
 
@@ -264,44 +106,35 @@ export default function Home() {
     
     <div className="row14_Home" data-scroll data-scroll-speed="2">
       <div className="col18_Home">
-        <h3><FontAwesomeIcon icon={faSmog}  /> <CountUpNumber end={548976} /> </h3>
+        <h3><FontAwesomeIcon icon={faSmog}  /> <CountUpCard end={548976} /> </h3>
         <h2>{t.sec1subH}</h2>
       </div>
       <div className="col19_Home">
-        <h3> <FontAwesomeIcon icon={faBolt}  />  <CountUpNumber end={94} /> </h3>
+        {/* <h3> <FontAwesomeIcon icon={faBolt}  />  <CountUpNumber end={94} /> </h3> */}
+        <h3> <FontAwesomeIcon icon={faBolt}  />  <CountUpCard end={94} /> </h3>
         <h2>{t.sec1subH2}</h2>
       </div>
       <div className="col20_Home">
-        <h3> <FontAwesomeIcon icon={faGlobe}  />  <CountUpNumber end={190} /> </h3>
+        <h3> <FontAwesomeIcon icon={faGlobe}  />  <CountUpCard end={190} /> </h3>
         <h2>{t.sec1subH3}</h2>
       </div>
     </div>
     <div className="row15_Home">
       <div className="col21_Home">
-        <h3> <FontAwesomeIcon icon={faHandshake}/>  <CountUpNumber end={80} /> </h3>
+        <h3> <FontAwesomeIcon icon={faHandshake}/>  <CountUpCard end={80} /> </h3>
         <h2>{t.sec1subH4}</h2>
       </div>
       <div className="col22_Home">
-        <h3> <FontAwesomeIcon icon={faMarsDouble} />  <CountUpNumber end={200} /> </h3>
+        <h3> <FontAwesomeIcon icon={faMarsDouble} />  <CountUpCard end={200} /> </h3>
         <h2>{t.sec1subH5}</h2>
       </div>
     </div>
   </div>
 
-{/* <div ref={containerRef} style={{ height: "100vh", position: "relative" , zIndex:'-1' }}>
-        <video
-          ref={videoRef}
-          src="/Videos/vnt-ani-home.mp4"
-          muted
-          playsInline
-          style={{ width: "100%", height: "auto", display: "block" }}
-        />
-      </div> */}
       <ScrollVideo
         videoSrc="/videos/vnt-ani-home.mp4"
-        scrollFactor={150} 
-      />
 
+      />
   <div className="container2_Home">
     <div className="row2_Home">
       <div className="col1_Home"  >
@@ -378,8 +211,7 @@ export default function Home() {
 <div className="container6_Home">
   <div className="row10_Home">
     <div className="col11_Home">
-      {/* <h4>Excellence Is Our Everyday Standard</h4>
-      <h2>A Legacy of Excellence, Awarded Again and Again</h2> */}
+
     </div>
   </div>
 </div>
@@ -397,9 +229,9 @@ export default function Home() {
     <div className="col16_Home"></div>
   </div>
 </div>
-<div className="container9_Home">
+{/* <div className="container9_Home">
 <video autoPlay loop muted src="/Videos/vnt-home2.MP4"/>
-</div>
+</div> */}
 <div className="container10_Home">
   <div className="row16_Home">
     <div className="col23_Home">
@@ -432,8 +264,6 @@ export default function Home() {
     </div>
   </div>
 </div>
-
-
       <div className="container30_Home" >
         <div className="row23_Home">
           <h2>{t.row23homeh21}</h2>

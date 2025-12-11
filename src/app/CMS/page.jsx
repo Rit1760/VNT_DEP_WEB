@@ -1,90 +1,18 @@
-// "use client"
 
  'use client';
-
-//  import LanguageSelector from "@/components/LanguageSelector";
-//  import { useLanguage } from "@/context/LanguageContext";
-
-//  export default function Lang() {
-//    const { t } = useLanguage();
-
-//    return (
-//      <>
-//        <LanguageSelector />
-//             <h4>{t.col37homeh4}</h4>
-//             <h2>{t.col37homeh2}</h2>
-//             <p>{t.col37homep}</p>
-//                       <h2>{t.row23homeh21}</h2>
-//             <h4>{t.col36homeh4}</h4>
-//             <h2>{t.col36homeh2}</h2>
-//             <p>{t.col36homep}</p>
-//      </>
-//    );
-//  }
-
-
 import "../../Styles/CMS.css"
 import Image from "next/image" 
 import Link from "next/link"
-
  import LanguageSelector from "@/components/LanguageSelector";
  import { useLanguage } from "@/context/LanguageContext";
-
-
 
 export default function CMS(){
   const { t } = useLanguage();
 
-
-
-
-    return(
-      
+    return(  
         <>
          <LanguageSelector />
         <div className="main1_CMS">
-
-
-
-  {/* <div className="container1NAV2_1" >
-    <div className="row1NAV2_1">
-      <div className="col1NAV2_1">
-
-
-<div
-  style={{
-    padding: '11px 20px',
-    fontFamily: lang === 'ar' ? "'Cairo', sans-serif" : 'Arial, sans-serif',
-  }}
-  dir={lang === 'ar' ? 'rtl' : 'ltr'}
-  lang={lang}
->
-  <select value={lang} onChange={(e) => setLang(e.target.value)} id="btnn"   >
-    <option  value="en">  English</option>
-    <option  value="hi"> Hindi</option>
-    <option  value="ar"> Arabic</option>
-    <option  value="es"> Spanish</option>
-    <option  value="pt-BR"> Portuguese (BR)</option>
-    <option  value="de"> German</option>
-    <option  value="ms">	Malay</option>
-    <option  value="th">	Thai</option>
-
-  </select>
-</div>
-
-
-      </div> */}
-      {/* <div className="col2NAV2_1">
-<select id="color" onChange={riti}>
-  <option value="#FAFAFA"> ⚪</option>     
-  <option value="#B0AFAF"> ⚙️</option>      
-</select>
-      </div> */}
-    {/* </div>
-  </div> */}
-
-
-
 
 <div className="cont1_nav" >
   <div className="row1_Nav">
@@ -96,7 +24,7 @@ export default function CMS(){
     <Link href="/DC_FAST" style={{whiteSpace:"nowrap" , textDecoration:"None",cursor:"pointer"}}>
     <div className="nav-item nav-public">
       <h4>{t.navpublic}</h4>
-    </div>
+    </div> 
      </Link>
     <Link href="/AC_WALLBOX" style={{whiteSpace:"nowrap" , textDecoration:"None"}}>
     <div className="nav-item nav-cms">

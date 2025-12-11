@@ -1,12 +1,15 @@
+
+
 'use client';
 
 import { useEffect, useRef } from "react";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ScrollVideo({ videoSrc, scrollFactor = 80 }) {
+export default function ScrollVideo({ videoSrc }) {
   const videoRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -18,22 +21,20 @@ export default function ScrollVideo({ videoSrc, scrollFactor = 80 }) {
     let ticking = false;
 
     const updateVideoTime = (progress) => {
-      if (video.duration) {
-        video.currentTime = progress * video.duration;
-      }
+      if (!video.duration) return;
+      video.currentTime = Math.pow(progress, 0.6) * video.duration;
     };
 
     const setupScroll = () => {
-      // Calculate container height dynamically
-      const height = video.duration * scrollFactor + window.innerHeight;
-      container.style.height = `${height}px`;
+      container.style.height = `100vh`;
 
       ScrollTrigger.create({
         trigger: container,
         start: "top top",
-        end: () => container.offsetHeight,
-        scrub: 0.5,
-        pin: true,
+        end: "bottom top",  
+        scrub: 2.5,    
+               pin: true,      
+        pinSpacing: false, 
         onUpdate: (self) => {
           if (!ticking) {
             requestAnimationFrame(() => {
@@ -56,18 +57,18 @@ export default function ScrollVideo({ videoSrc, scrollFactor = 80 }) {
       video.removeEventListener("loadedmetadata", setupScroll);
       ScrollTrigger.getAll().forEach((st) => st.kill());
     };
-  }, [scrollFactor]);
+  }, []);
 
   return (
     <div ref={containerRef} style={{ position: "relative" }}>
       <video
         ref={videoRef}
         src={videoSrc}
-        style={{ width: "100%", position: "sticky", top: 0 }}
+        style={{ width: "100%" }}
         preload="metadata"
         muted
         playsInline
-        loop
+        loop={false}
         controls={false}
       />
     </div>

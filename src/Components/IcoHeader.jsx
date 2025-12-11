@@ -15,7 +15,6 @@ export default function IcoHeader(){
      const iconRef2 = useRef(null);
      const iconRef3 = useRef(null);
 
-
        useGSAP(() => {
 const tl = gsap.timeline({ repeat: -1 });
 
@@ -57,7 +56,6 @@ tl.to(iconRef1.current, {
                      <a href={`tel:${18005727592}`}>
                    <FontAwesomeIcon ref={iconRef2} icon={faPhone}   style={{ color: "#2391fb", cursor: "pointer", marginRight: "1rem",paddingBottom:'10px' ,width:'30px',height:'30px', }}/>
                     </a>
-                    
                     </div>
                     <div className="col3_IcoHeader">
                       <a href="https://www.linkedin.com/company/vrinda-nano-technologies/">
