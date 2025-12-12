@@ -33,7 +33,7 @@ export default function ScrollVideo({ videoSrc }) {
         start: "top top",
         end: "bottom top",  
         scrub: 2.5,    
-               pin: true,      
+        pin: true,      
         pinSpacing: false, 
         onUpdate: (self) => {
           if (!ticking) {

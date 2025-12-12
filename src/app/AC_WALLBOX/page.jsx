@@ -4,9 +4,7 @@ import "../../Styles/AC_WALLBOX.css"
 import { useState } from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFont, faHouse } from "@fortawesome/free-solid-svg-icons";
-import { faBuilding } from "@fortawesome/free-solid-svg-icons";
-import { faClockRotateLeft } from "@fortawesome/free-solid-svg-icons";
+import { faBuilding , faClockRotateLeft , faHouse  } from "@fortawesome/free-solid-svg-icons";
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
@@ -61,39 +59,31 @@ export default function AC_WALLBOX() {
   return (
     <>
       <LanguageSelector />
-
       <Head>
         <title>AC Wallbox | VNT - Reliable AC EV Charging Solutions</title>
-
         <meta
           name="description"
           content="Explore VNT's AC Wallbox solutions, offering safe, efficient, and user-friendly AC electric vehicle chargers for residential and commercial use across India."
         />
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
-
         <meta property="og:title" content="VNT | AC Wallbox EV Chargers" />
         <meta property="og:description" content="VNT provides advanced AC Wallbox chargers designed for easy installation and reliable EV charging at homes and workplaces." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vnt.in/solutions/AC_WALLBOX/" />
         <meta property="og:site_name" content="VNT" />
-
         <meta
           name="keywords"
           content="VNT, AC Wallbox, EV charger India, AC electric vehicle charging, home EV charger, workplace EV charging, reliable AC charger, electric vehicle infrastructure"
         />
       </Head>
-
       <div className="main1_AC_WALLBOX">
-
         {/* <EVHOME /> */}
-
-
-        <div className="cont1_nav" >
+        {/* <div className="cont1_nav" >
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-residential">
+
                 <h4>Home</h4>
               </div>
             </Link>
@@ -108,12 +98,60 @@ export default function AC_WALLBOX() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="container1_AC_WALLBOX">
-          <div className="row1_AC_WALLBOX">
+        </div> */}
+
+
+
+                <div className="cont1_nav" >
+          <div className="row1_Nav">
+            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-residential">
+                        <Image
+          src="/Images/Residential.png"
+          alt="Residential"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Home</h4>
+              </div>
+            </Link>
+            <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
+              <div className="nav-item nav-public">
+                        <Image
+          src="/Images/public-c.png"
+          alt="Public"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Public</h4>
+              </div>
+            </Link>
+            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-cms">
+                        <Image
+          src="/Images/sidenav.png"
+          alt="CMS"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>CMS/APP</h4>
+              </div>
+            </Link>
           </div>
         </div>
-
+   <div className="container1_AC_WALLBOX">
+      <Image 
+        src="/Images/Resi1.png"
+        alt="Background"
+        fill
+        priority={false}
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+      />
+    </div>
         <div className="container2_RESIDENCE">
           <div className="row2_RESIDENCE">
             <div className="col1_RESIDENCE" onClick={() => handleClick(1)}   >
@@ -146,9 +184,7 @@ export default function AC_WALLBOX() {
               }>
                 {t.col1resi5}</h2>
             </div>
-
           </div>
-
           {activeIndex === 1 && (
             <div className="row3_RESIDENCE">
               <div className="col66_RESIDENCE">
@@ -170,7 +206,6 @@ export default function AC_WALLBOX() {
           {activeIndex === 2 && (
             <div className="row4_RESIDENCE">
               <div className="col8_RESIDENCE">
-
                 <h2>{t.col8resih2}</h2>
                 <p>{t.col8resip}</p>
                 <h3>{t.col8resih3}</h3>
@@ -238,7 +273,6 @@ export default function AC_WALLBOX() {
               <div className="col15_RESIDENCE">
                 <Image src="/Images/Portable7.4kW.png" width={700} height={480} alt="Portable7.4kW" />
               </div>
-
             </div>
           )}
         </div>
@@ -305,7 +339,6 @@ export default function AC_WALLBOX() {
               border: '1px solid #ccc',
               cursor: 'pointer',
               marginLeft: '401px',
-
             }}
           >
             <div
@@ -317,8 +350,6 @@ export default function AC_WALLBOX() {
                 transform: hovered2 ? 'translateX(-50%)' : 'translateX(0)',
               }}
             >
-
-
               <div style={{ width: '50%', height: '100%', position: 'relative' }}>
                 <Image
                   src="/Images/vth4.png"
@@ -328,8 +359,6 @@ export default function AC_WALLBOX() {
                   style={{ borderRadius: '10px' }}
                 />
               </div>
-
-
               <div
                 style={{
                   width: '50%',
@@ -342,7 +371,6 @@ export default function AC_WALLBOX() {
                   fontFamily: 'Lato , sans-serif',
                 }}
               >
-
                 <h2 style={{ fontSize: '20px', marginBottom: '10px' }}>Vehicle-to-Home</h2>
                 <p style={{ fontSize: '14px', marginBottom: '10px' }}>
                   Power your home with the energy stored in your EV. Whether you're storing energy from
@@ -369,7 +397,6 @@ export default function AC_WALLBOX() {
               marginLeft: '100px',
             }}
           >
-
             <div
               style={{
                 display: 'flex',
@@ -379,7 +406,6 @@ export default function AC_WALLBOX() {
                 transform: hovered1 ? 'translateX(-50%)' : 'translateX(0)',
               }}
             >
-
               <div style={{ width: '50%', height: '100%', position: 'relative' }}>
                 <Image
                   src="/Images/vth2.png"
@@ -389,8 +415,6 @@ export default function AC_WALLBOX() {
                   style={{ borderRadius: '10px' }}
                 />
               </div>
-
-
               <div
                 style={{
                   width: '50%',
@@ -403,8 +427,7 @@ export default function AC_WALLBOX() {
                   fontFamily: 'Lato , sans-serif',
                 }}
               >
-
-
+                
                 <h2 style={{ fontSize: '20px', marginBottom: '10px' }}>Vehicle-to-Home</h2>
                 <p style={{ fontSize: '14px', marginBottom: '10px' }}>
                   Power your home with the energy stored in your EV. Whether you're storing energy from
@@ -418,8 +441,6 @@ export default function AC_WALLBOX() {
             </div>
           </div>
         </div>
-
-
         <div className="container7_RES" ref={containerRef2}>
           <div className="row13_RES">
             <div className="col23_RES">

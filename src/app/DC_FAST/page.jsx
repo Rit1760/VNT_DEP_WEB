@@ -12,6 +12,7 @@ import LanguageSelector from "@/Components/LanguageSelector";
 import { useLanguage } from "@/context/LanguageContext";
 gsap.registerPlugin(ScrollTrigger);
 export default function DC_FAST() {
+
   const { t } = useLanguage();
   const containerReff = useRef(null);
   const containerReff1 = useRef(null);
@@ -62,7 +63,10 @@ export default function DC_FAST() {
         />
       </Head>
       <div className="main1_Public" >
-        <div className="cont1_nav">
+
+
+
+        {/* <div className="cont1_nav">
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-residential">
@@ -80,10 +84,65 @@ export default function DC_FAST() {
               </div>
             </Link>
           </div>
+        </div> */}
+                <div className="cont1_nav" >
+          <div className="row1_Nav">
+            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-residential">
+                        <Image
+          src="/Images/Residential.png"
+          alt="Residential"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Home</h4>
+              </div>
+            </Link>
+            <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
+              <div className="nav-item nav-public">
+                        <Image
+          src="/Images/public-c.png"
+          alt="Public"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Public</h4>
+              </div>
+            </Link>
+            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-cms">
+                        <Image
+          src="/Images/CMS.png"
+          alt="CMS"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>CMS/APP</h4>
+              </div>
+            </Link>
+          </div>
         </div>
-        <div className="container1_Public" >
+
+
+
+        {/* <div className="container1_Public" >
           <div className="row1_Public">
           </div>
+        </div> */}
+                <div className="container1_Public" >
+                    <Image
+    src="/Images/Picture1.png"
+    alt="Hero Background"
+    fill
+    priority     
+    sizes="100vw"
+    style={{ objectFit: "cover" }}
+    className="hero-bg"
+  />
+
         </div>
         {/* section two  */}
         <div className="container2_Public">
@@ -146,6 +205,7 @@ export default function DC_FAST() {
                 In<span style={{ color: "#ff6600" }}>v</span>e<span style={{ color: "#ff6600" }}>n</span><span style={{ color: "#ff6600" }}>t</span>io 1MW - MegaCharge</h2>
             </div>
           </div>
+
           {activeIndex1 === 1 && (
             <div className="row3_Public">
               <div className="col66_Public">
@@ -341,9 +401,17 @@ export default function DC_FAST() {
             </div>
           </div>
         </div>
-
-        <div className='container9_Public'>
-
+        
+        {/* <div className='container9_Public'>
+        </div> */}
+                <div className='container9_Public'>
+                    <Image
+    src="/Images/EV-1.png"
+    alt="EV Background"
+    fill
+    priority={false}
+    style={{ objectFit: "cover" }}
+  />
         </div>
         <div className='container10_Public'>
           <div className='row11_Public'>

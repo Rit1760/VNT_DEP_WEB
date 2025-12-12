@@ -9,12 +9,13 @@ import Link from "next/link"
 export default function CMS(){
   const { t } = useLanguage();
 
+
     return(  
         <>
          <LanguageSelector />
         <div className="main1_CMS">
 
-<div className="cont1_nav" >
+{/* <div className="cont1_nav" >
   <div className="row1_Nav">
      <Link href="/" style={{whiteSpace:"nowrap" , textDecoration:"None"}}>
     <div className="nav-item nav-residential">
@@ -32,8 +33,52 @@ export default function CMS(){
     </div>
      </Link>
   </div>
+</div> */}
 
-</div>
+
+
+                <div className="cont1_nav" >
+          <div className="row1_Nav">
+            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-residential">
+                        <Image
+          src="/Images/Residential.png"
+          alt="Residential"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Home</h4>
+              </div>
+            </Link>
+            <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
+              <div className="nav-item nav-public">
+                        <Image
+          src="/Images/public-c.png"
+          alt="Public"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>Public</h4>
+              </div>
+            </Link>
+            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+              <div className="nav-item nav-cms">
+                        <Image
+          src="/Images/sidenav.png"
+          alt="CMS"
+          fill
+          sizes="20vw"
+          style={{ objectFit: "contain" }}
+        />
+                <h4>CMS/APP</h4>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+
             <div className="container1_CMS">
                 <div className="row1_CMS">
                     <div className="col1_CMS">
