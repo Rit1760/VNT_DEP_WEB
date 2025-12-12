@@ -99,9 +99,6 @@ export default function AC_WALLBOX() {
             </Link>
           </div>
         </div> */}
-
-
-
                 <div className="cont1_nav" >
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
@@ -111,8 +108,7 @@ export default function AC_WALLBOX() {
           alt="Residential"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
-        />
+          style={{ objectFit: "contain" }} />
                 <h4>Home</h4>
               </div>
             </Link>
@@ -427,7 +423,6 @@ export default function AC_WALLBOX() {
                   fontFamily: 'Lato , sans-serif',
                 }}
               >
-                
                 <h2 style={{ fontSize: '20px', marginBottom: '10px' }}>Vehicle-to-Home</h2>
                 <p style={{ fontSize: '14px', marginBottom: '10px' }}>
                   Power your home with the energy stored in your EV. Whether you're storing energy from
@@ -454,7 +449,6 @@ export default function AC_WALLBOX() {
             </div>
           </div>
         </div>
-
       </div>
     </>
   )

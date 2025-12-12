@@ -283,11 +283,13 @@ export default function Home() {
   </div>
 </div>
 <div className="container6_Home">
-  <div className="row10_Home">
-    <div className="col11_Home">
-
-    </div>
-  </div>
+  <Image 
+    src="/Images/decades.png"
+    alt="decades"
+    fill
+    priority={false}
+    sizes="100vw"
+  />
 </div>
 <div className="container7_Home">
   <div className="row11_Home">

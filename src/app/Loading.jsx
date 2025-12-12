@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import "./globals.css"
 
 export default function LoadingWrapper({ children }) {
   const [loading, setLoading] = useState(true);
@@ -24,7 +25,7 @@ export default function LoadingWrapper({ children }) {
         justifyContent: "center",
         alignItems: "center",
         fontSize: "2.2rem",
-        fontFamily: "'Poppins', sans-serif",
+        fontFamily:"ElmsSans",
         fontWeight: "600",
         zIndex: 9999,
         letterSpacing: "1.5px",
