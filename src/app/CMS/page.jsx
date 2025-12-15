@@ -9,34 +9,10 @@ import Link from "next/link"
 export default function CMS(){
   const { t } = useLanguage();
 
-
     return(  
         <>
          <LanguageSelector />
         <div className="main1_CMS">
-
-{/* <div className="cont1_nav" >
-  <div className="row1_Nav">
-     <Link href="/" style={{whiteSpace:"nowrap" , textDecoration:"None"}}>
-    <div className="nav-item nav-residential">
-      <h4>{t.navitemh4}</h4>
-    </div>
-    </Link>
-    <Link href="/DC_FAST" style={{whiteSpace:"nowrap" , textDecoration:"None",cursor:"pointer"}}>
-    <div className="nav-item nav-public">
-      <h4>{t.navpublic}</h4>
-    </div> 
-     </Link>
-    <Link href="/AC_WALLBOX" style={{whiteSpace:"nowrap" , textDecoration:"None"}}>
-    <div className="nav-item nav-cms">
-      <h4>{t.navcms}</h4>
-    </div>
-     </Link>
-  </div>
-</div> */}
-
-
-
                 <div className="cont1_nav" >
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
@@ -63,7 +39,7 @@ export default function CMS(){
                 <h4>Public</h4>
               </div>
             </Link>
-            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+            <Link href="/AC_WALLBOX" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-cms">
                         <Image
           src="/Images/sidenav.png"
@@ -72,7 +48,7 @@ export default function CMS(){
           sizes="20vw"
           style={{ objectFit: "cover" }}
         />
-                <h4>CMS/APP</h4>
+                <h4>Residential</h4>
               </div>
             </Link>
           </div>

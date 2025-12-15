@@ -78,27 +78,7 @@ export default function AC_WALLBOX() {
         />
       </Head>
       <div className="main1_AC_WALLBOX">
-        {/* <EVHOME /> */}
-        {/* <div className="cont1_nav" >
-          <div className="row1_Nav">
-            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
-              <div className="nav-item nav-residential">
 
-                <h4>Home</h4>
-              </div>
-            </Link>
-            <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
-              <div className="nav-item nav-public">
-                <h4>Public</h4>
-              </div>
-            </Link>
-            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
-              <div className="nav-item nav-cms">
-                <h4>CMS/APP</h4>
-              </div>
-            </Link>
-          </div>
-        </div> */}
                 <div className="cont1_nav" >
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>

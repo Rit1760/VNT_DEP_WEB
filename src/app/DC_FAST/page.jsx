@@ -64,27 +64,6 @@ export default function DC_FAST() {
       </Head>
       <div className="main1_Public" >
 
-
-
-        {/* <div className="cont1_nav">
-          <div className="row1_Nav">
-            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
-              <div className="nav-item nav-residential">
-                <h4>Home</h4>
-              </div>
-            </Link>
-            <Link href="/AC_WALLBOX" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
-              <div className="nav-item nav-public">
-                <h4>Residential</h4>
-              </div>
-            </Link>
-            <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
-              <div className="nav-item nav-cms">
-                <h4>CMS/APP</h4>
-              </div>
-            </Link>
-          </div>
-        </div> */}
                 <div className="cont1_nav" >
           <div className="row1_Nav">
             <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
