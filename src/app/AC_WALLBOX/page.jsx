@@ -108,7 +108,7 @@ export default function AC_WALLBOX() {
           alt="Residential"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }} />
+          style={{ objectFit: "cover" }} />
                 <h4>Home</h4>
               </div>
             </Link>
@@ -119,7 +119,7 @@ export default function AC_WALLBOX() {
           alt="Public"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>Public</h4>
               </div>
@@ -131,7 +131,7 @@ export default function AC_WALLBOX() {
           alt="CMS"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>CMS/APP</h4>
               </div>

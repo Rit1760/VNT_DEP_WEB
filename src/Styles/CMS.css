@@ -574,17 +574,7 @@ font-family: 'ElmsSans', sans-serif;
       position: relative;
 }
 
-/* .nav-residential {
-  background-image: url("/../Images/Residential.png");
-}
 
-.nav-public {
-  background-image: url("/../Images/public-c.png");
-}
-
-.nav-cms {
-  background-image: url("/../Images/sidenav.png");
-} */
 .nav-residential,
 .nav-public,
 .nav-cms {

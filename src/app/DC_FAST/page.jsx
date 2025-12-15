@@ -94,21 +94,21 @@ export default function DC_FAST() {
           alt="Residential"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>Home</h4>
               </div>
             </Link>
-            <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
+            <Link href="/AC_WALLBOX" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
               <div className="nav-item nav-public">
                         <Image
           src="/Images/public-c.png"
           alt="Public"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
-                <h4>Public</h4>
+                <h4>Residential</h4>
               </div>
             </Link>
             <Link href="/CMS" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
@@ -118,7 +118,7 @@ export default function DC_FAST() {
           alt="CMS"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>CMS/APP</h4>
               </div>

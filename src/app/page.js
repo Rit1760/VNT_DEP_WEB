@@ -83,16 +83,16 @@ export default function Home() {
 
                 <div className="cont1_nav" >
           <div className="row1_Nav">
-            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+            <Link href="/AC_WALLBOX" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-residential">
                         <Image
           src="/Images/Residential.png"
           alt="Residential"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
-                <h4>Home</h4>
+                <h4>Residential</h4>
               </div>
             </Link>
             <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
@@ -102,7 +102,7 @@ export default function Home() {
           alt="Public"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>Public</h4>
               </div>
@@ -114,7 +114,7 @@ export default function Home() {
           alt="CMS"
           fill
           sizes="20vw"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
                 <h4>CMS/APP</h4>
               </div>
