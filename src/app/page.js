@@ -159,7 +159,7 @@ export default function Home() {
     </div>
   </div>
       <ScrollVideo
-        videoSrc="/videos/vnt-ani-home.mp4"
+        videoSrc="/Videos/vnt-ani-home.mp4"
       />
   <div className="container2_Home">
     <div className="row2_Home">

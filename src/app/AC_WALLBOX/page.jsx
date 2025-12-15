@@ -211,7 +211,7 @@ export default function AC_WALLBOX() {
                 </ul>
               </div>
               <div className="col11_RESIDENCE">
-                <Image src="/Images/AC-KW2.png" width={550} height={500} alt="AC-KW" />
+                <Image src="/Images/ac-kw2.png" width={550} height={500} alt="AC-KW"  sizes="(max-width: 768px) 90vw, 550px" />
               </div>
             </div>
           )}
@@ -229,7 +229,7 @@ export default function AC_WALLBOX() {
                 </ul>
               </div>
               <div className="col13_RESIDENCE">
-                <Image src="/Images/POrtable3.3kW.png" width={600} height={480} alt="POrtable3.3kW" />
+                <Image src="/Images/POrtable3.3kW.png" width={600} height={480} alt="POrtable3.3kW"  sizes="(max-width: 768px) 90vw, 550px" />
               </div>
             </div>
           )}
@@ -247,7 +247,7 @@ export default function AC_WALLBOX() {
                 </ul>
               </div>
               <div className="col15_RESIDENCE">
-                <Image src="/Images/Portable7.4kW.png" width={700} height={480} alt="Portable7.4kW" />
+                <Image src="/Images/Portable7.4kW.png" width={700} height={480} alt="Portable7.4kW"  sizes="(max-width: 768px) 90vw, 550px" />
               </div>
             </div>
           )}

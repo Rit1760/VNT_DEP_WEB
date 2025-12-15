@@ -529,9 +529,11 @@ font-family: 'ElmsSans', sans-serif;
 .cont1_nav {
   position: fixed;
   top: 30%;
+      left: 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+    z-index: 9999;
 }
 .row1_Nav {
   display: flex;

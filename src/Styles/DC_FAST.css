@@ -106,9 +106,11 @@
  .cont1_nav {
   position: fixed;
   top: 30%;
+      left: 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+    z-index: 9999;
 }
 .row1_Nav {
   display: flex;
@@ -401,10 +403,11 @@ width: 25%;
 
 .row1_Public_copy , .row22_Public_copy , .row3_Public_copy ,.row4_Public_copy{
     column-gap: 80px;
-    margin-top: 100px;
     display: flex;
-        width: 100%;
+    width: 100%;
     max-width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .col66_Public_copy img ,.col4_Public_copy img ,.col88_Public_copy img{
@@ -540,11 +543,12 @@ padding-left: 5%;
     font-weight: 600;
 }
 
-.col2_row3_Public P{
-     font-family: 'ElmsSans', sans-serif;
-           font-size: 28px;
-       font-weight: 400;
-           text-align: justify;
+.col2_row3_Public P {
+    text-align: justify;
+    font-family: 'ElmsSans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333;
 }
 .col3_Public_row3_Public img{
     border-radius: 20px;
