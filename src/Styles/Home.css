@@ -46,15 +46,7 @@ html,body{overflow-x:hidden}@font-face{font-family:'Lato';src:url('/Fonts/Lato-R
     font-weight: 400;
       position: relative;
 }
-/* .nav-residential{
-  background-image:url("/../Images/Residential.png")
-}
-.nav-public{
-  background-image:url("/../Images/public-c.png")
-}
-.nav-cms{
-  background-image:url("/../Images/sidenav.png")
-} */
+
 .nav-residential,
 .nav-public,
 .nav-cms {
@@ -68,53 +60,7 @@ html,body{overflow-x:hidden}@font-face{font-family:'Lato';src:url('/Fonts/Lato-R
 
 
 .col1NAV_EV1,.col2NAV_EV2,.col3NAV_EV3{width:90px;height:130px;padding:10px 30px;border:1px solid rgba(51,51,51,.3);box-shadow:0 4px 16px rgba(0,0,0,.2);margin-bottom:20px;color:#000;font-family:'ElmsSans',sans-serif;font-size:16px;line-height:1.6}.col1NAV_EV1{background:url('/Images/AC1.png')}.col2NAV_EV2{background:url('/Images/AC22.png')}.col3NAV_EV3{background:url('/Images/AC33.png')}.col1NAV_EV1:hover,.col2NAV_EV2:hover,.col3NAV_EV3:hover{cursor:pointer;transform:translateX(10px);box-shadow:0 4px 24px rgba(255,170,0,.6),0 4px 24px rgba(245,0,245,.4)}.container1_Home{width:100%;height:90vh;overflow:hidden;position:relative;z-index:-1}.container1_Home video{width:100%;height:100%;object-fit:cover}.container2_Home{width:100%;margin-top:65%;padding-bottom:40px}.col1_Home h2{width:70%;margin:0 auto;text-align:center;font-family:'ElmsSans',sans-serif;font-size:50px;font-weight:400}
-/* .container3_Home{ */
-  /* width:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  margin-top:5rem;
-  padding:40px 5rem;
-  box-sizing:border-box;
-}.row3_Home{
-  display:flex;
-  flex-direction:row;
-  gap:30px;
-  max-width:1400px;
-  width:100%;
 
-}.row3_Home_1{
-  flex:1;
-  height:940px;
-  border-radius:20px;
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-  box-shadow:0 10px 20px rgba(0,0,0,.2),0 6px 6px rgba(0,0,0,.25)
-}.row3_Home_2{
-  flex:1;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between
-}.row3_Home_2>div{
-  height:49%;
-  width:100%;
-  border-radius:20px;
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
-  box-shadow:0 10px 20px rgba(0,0,0,.2),0 6px 6px rgba(0,0,0,.25)
-}
- .bg-image1{
-  object-fit: cover; 
-  z-index: 1;
-}
-.bg-image2{
-  background-image:url('/Images/DC-Main.png')
-}
-.bg-image3{
-  background-image:url('/Images/CMS_Home (3).png')
-}  */
 .container3_Home{
   width:100%;
   display:flex;
@@ -163,32 +109,12 @@ html,body{overflow-x:hidden}@font-face{font-family:'Lato';src:url('/Fonts/Lato-R
   z-index:1;
 }
 
-/* .row3_Home_1 h2,
-.row3_Home_1 p,
-.imageWrapperSmall h2,
-.imageWrapperSmall p {
-  position:absolute;
-  z-index:2;
-  color:white;
-  left:20px;
-  bottom:60px;
-  margin:0;
-} */
 
-/* PARAGRAPH THODA NICHE */
 .row3_Home_1 p,
 .imageWrapperSmall p {
   bottom:20px;
 }
-/* .bg-image1{
-  background-image:url('/Images/ResedentialEVCharger.png')
-}
-/* .bg-image2{
-  background-image:url('/Images/DC-Main.png')
-}
-.bg-image3{
-  background-image:url('/Images/CMS_Home (3).png')
-} */ 
+
 .row3_Home_1 h2{
   color:#000;
     z-index:2;
@@ -231,26 +157,7 @@ html,body{overflow-x:hidden}@font-face{font-family:'Lato';src:url('/Fonts/Lato-R
 }
 
 .bg-image3 h2{width:64%;margin-top:18px;margin-left:26px;font-family:'ElmsSans',sans-serif;font-size:37px;color:#000}.bg-image3 p{color:#000;width:87%;margin-top:207px;margin-left:26px;font-family:'ElmsSans',sans-serif;font-size:20px}.container4_Home{width:100%;margin-top:140px;padding-bottom:40px}.col3_Home h2{text-align:center;width:70%;margin:0 auto;font-family:'ElmsSans',sans-serif;font-size:50px;font-weight:400}
-/* .container6_Home{
-  background:url('/Images/decades.png');
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-attachment:fixed;
-  width:100%;height:80vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  margin-top:7rem
-} */
-/* .container6_Home{
-  position: relative;
-  width: 100%;
-  height: 60vh;
-  border-radius: 28px;
-  overflow: hidden;
-} */
+
  .container6_Home {
   position: relative;
   width: 100%;

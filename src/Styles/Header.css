@@ -52,7 +52,8 @@ width: 70%;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(127, 127, 127, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5); 
+  /* background-color: rgba(127, 127, 127, 0.5);  */
   border-radius: 20px;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
