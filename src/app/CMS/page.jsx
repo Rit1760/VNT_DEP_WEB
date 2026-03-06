@@ -15,7 +15,7 @@ export default function CMS(){
         <div className="main1_CMS">
                 <div className="cont1_nav" >
           <div className="row1_Nav">
-            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+            {/* <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-residential">
                         <Image
           src="/Images/Residential.png"
@@ -26,7 +26,7 @@ export default function CMS(){
         />
                 <h4>Home</h4>
               </div>
-            </Link>
+            </Link> */}
             <Link href="/DC_FAST" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
               <div className="nav-item nav-public">
                         <Image

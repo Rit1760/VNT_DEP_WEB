@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Lato';
   src: url('/Fonts/Lato-Regular.ttf') format('ttf');
   font-weight: 400;
@@ -39,10 +39,6 @@ width: 70%;
 
 
 
-
-
-
-/* nav changes  */
 .col2_Nav {
     width: 84%;
     max-width: 1078px;
@@ -53,7 +49,6 @@ width: 70%;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.5); 
-  /* background-color: rgba(127, 127, 127, 0.5);  */
   border-radius: 20px;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -88,7 +83,6 @@ margin-left: 10px;
   display: none;
 }
 
-/* second dropdown section  */
 .container2_NAV{
     width: 27%;
     margin: 0 auto;
@@ -127,9 +121,7 @@ margin-left: 10px;
     transform: translateX(20px);
     transition: all 0.8s ease-in-out;
 }
-/* second dropdown section end  */
 
-/* third dropdown section  */
 .container3_NAV{
     width: 27%;
     margin: 0 auto;
@@ -147,7 +139,6 @@ margin-left: 10px;
       font-family: 'Lato', sans-serif;
       font-weight: 400;
   color: #333333;
-  /* z-index: 9999; */
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .col4_NAV ul{
@@ -168,10 +159,8 @@ margin-left: 10px;
     transform: translateX(20px);
     transition: all 0.8s ease-in-out;
 }
-/* third dropdown section end  */
 
 
-/* four dropdown section  */
 .container4_NAV{
         width: 27%;
     margin: 0 auto;
@@ -212,22 +201,6 @@ margin-left: 10px;
     transition: all 0.8s ease-in-out;
 }
 
-/* four dropdown section end  */
-
-
-/* @media screen and (max-width: 768px) {
-
-
-
-    .col3_Header {
-        margin-top: -140px;
-        margin-left: 17rem;
-        padding-bottom: 41px;
-        font-size: 34px;
-        display: block;
-    }
-} */
-/* nav changes end  */
 
 
 
@@ -237,7 +210,6 @@ margin-left: 10px;
 }
 
 
-/* Mobile adjustments */
 @media screen and (max-width: 768px) {
 
        .mobileHamburger {
@@ -281,7 +253,6 @@ margin-left: 10px;
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  /* Dropdowns: full width below menu item */
   .container2_NAV,
   .container3_NAV,
   .container4_NAV {
@@ -304,7 +275,6 @@ margin-left: 10px;
     transform: none;
   }
 
-  /* Hamburger icon */
   .mobileHamburger {
     display: block;
     cursor: pointer;
@@ -313,7 +283,6 @@ margin-left: 10px;
     margin-bottom: 10px;
   }
 
-  /* Hide desktop hover dropdowns */
   .container2_NAV,
   .container3_NAV,
   .container4_NAV {
@@ -324,5 +293,146 @@ margin-left: 10px;
   .container3_NAV.active,
   .container4_NAV.active {
     display: block;
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Lato;
+  src: url("/Fonts/Lato-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navWrapper {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+}
+
+
+.navContainer {
+  width: 92%;
+  max-width: 850px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 30px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.75);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.navMenu {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navMenu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.navMenu li a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.hamburger {
+  flex: 0 0 auto;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  display: none; 
+}
+
+@media (max-width: 768px) {
+  .navMenu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 0 0 20px 20px;
+    display: none;
+    z-index: 9998;
+  }
+
+  .navMenu.active {
+    display: flex;
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .navMenu li a {
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: block; 
   }
 }

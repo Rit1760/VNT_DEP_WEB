@@ -66,7 +66,7 @@ export default function DC_FAST() {
 
                 <div className="cont1_nav" >
           <div className="row1_Nav">
-            <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
+            {/* <Link href="/" style={{ whiteSpace: "nowrap", textDecoration: "None" }}>
               <div className="nav-item nav-residential">
                         <Image
           src="/Images/Residential.png"
@@ -77,7 +77,7 @@ export default function DC_FAST() {
         />
                 <h4>Home</h4>
               </div>
-            </Link>
+            </Link> */}
             <Link href="/AC_WALLBOX" style={{ whiteSpace: "nowrap", textDecoration: "None", cursor: "pointer" }}>
               <div className="nav-item nav-public">
                         <Image

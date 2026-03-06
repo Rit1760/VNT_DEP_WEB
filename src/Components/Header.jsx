@@ -1,159 +1,217 @@
 
+// "use client";
+
+// import { useState, useEffect, useRef } from "react";
+// import Link from "next/link";
+// import "../Styles/Header.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faAngleDown, faAngleUp, faBars, faX } from "@fortawesome/free-solid-svg-icons";
+
+// export default function Header() {
+//   const [set, togSet] = useState(false);
+//   const [set1, togSet1] = useState(false);
+//   const [set2, togSet2] = useState(false);
+//   const [showNav, setShowNav] = useState(true);
+//   const [lastScrollY, setLastScrollY] = useState(0);
+//   const [mobileMenu, setMobileMenu] = useState(false);
+
+//   const aboutRef = useRef(null);
+//   const solutionsRef = useRef(null);
+//   const productsRef = useRef(null);
+
+//   const toggleDropdown = (dropdown) => {
+//     if (dropdown === "about") {
+//       togSet(!set);
+//       togSet1(false);
+//       togSet2(false);
+//     } else if (dropdown === "solutions") {
+//       togSet1(!set1);
+//       togSet(false);
+//       togSet2(false);
+//     } else if (dropdown === "products") {
+//       togSet2(!set2);
+//       togSet(false);
+//       togSet1(false);
+//     }
+//   };
+
+//   const controlNavbar = () => {
+//     if (window.scrollY < lastScrollY) setShowNav(true);
+//     else setShowNav(false);
+//     setLastScrollY(window.scrollY);
+//   };
+
+//   useEffect(() => {
+//     window.addEventListener("scroll", controlNavbar);
+//     return () => window.removeEventListener("scroll", controlNavbar);
+//   }, [lastScrollY]);
+
+//   useEffect(() => {
+//     const handleClickOutside = (event) => {
+//       if (
+//         (set && aboutRef.current && !aboutRef.current.contains(event.target)) ||
+//         (set1 && solutionsRef.current && !solutionsRef.current.contains(event.target)) ||
+//         (set2 && productsRef.current && !productsRef.current.contains(event.target))
+//       ) {
+//         togSet(false);
+//         togSet1(false);
+//         togSet2(false);
+//       }
+//     };
+//     document.addEventListener("mousedown", handleClickOutside);
+//     return () => document.removeEventListener("mousedown", handleClickOutside);
+//   }, [set, set1, set2]);
+
+//   return (
+//     <>
+//       {/* Navbar */}
+//       <div
+//         className="container1_Nav"
+//         style={{
+//           position: "fixed",
+//           top: 0,
+//           left: 0,
+//           right: 0,
+//           zIndex: 9999,
+//           transition: "transform 0.3s ease-in-out",
+//           transform: showNav ? "translateY(0)" : "translateY(-100%)",
+//           backgroundColor: "rgba(127, 127, 127, 0.9)",
+//           backdropFilter: "blur(10px)",
+//           WebkitBackdropFilter: "blur(10px)",
+//         }}
+//       >
+//         <div className="row1_Nav">
+//           <div className="col2_Nav">
+//             <div className="mobileHamburger" onClick={() => setMobileMenu(!mobileMenu)}>
+//               <FontAwesomeIcon icon={mobileMenu ? faX : faBars} size="lg" />
+//             </div>
+
+//             <ul className={mobileMenu ? "navMenu active" : "navMenu"}>
+//               <li><Link href="/">HOME</Link></li>
+//               <li><Link href="https://vnt.in/vnt-cleanwatts/">VNT CLEANWATTS</Link></li>
+
+//               <li ref={aboutRef} onClick={() => toggleDropdown("about")} style={{ cursor: "pointer" }}>
+//                 ABOUT US {set ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
+//               </li>
+
+//               <li ref={solutionsRef} onClick={() => toggleDropdown("solutions")} style={{ cursor: "pointer" }}>
+//                 SOLUTIONS {set1 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
+//               </li>
+
+//               <li ref={productsRef} onClick={() => toggleDropdown("products")} style={{ cursor: "pointer" }}>
+//                 PRODUCTS {set2 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
+//               </li>
+
+//               <li><Link href="https://vnt.in/services/">SERVICES</Link></li>
+//               <li><Link href="https://vnt.in/contact-us/">CONTACT US</Link></li>
+//             </ul>
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* Dropdowns */}
+//       {set && (
+//         <div className="container2_NAV">
+//           <div className="row2_NAV">
+//             <div className="col3_NAV">
+//               <ul>
+//                 <li><Link href="https://vnt.in/company-profile/">Company Profile</Link></li>
+//                 <li><Link href="https://vnt.in/history/">Company History</Link></li>
+//                 <li><Link href="https://vnt.in/leadership/">Leadership</Link></li>
+//               </ul>
+//             </div>
+//           </div>
+//         </div>
+//       )}
+
+//       {set1 && (
+//         <div className="container3_NAV">
+//           <div className="row3_NAV">
+//             <div className="col4_NAV">
+//               <ul>
+//                 <li><Link href="https://vnt.in/solar-solutions/">Solar</Link></li>
+//                 <li><Link href="https://vnt.in/energy-management-solutions/">Energy Management</Link></li>
+//                 <li><Link href="https://vnt.in/telecom-solutions/">Telecom</Link></li>
+//                 <li><Link href="https://vnt.in/e-mobility-solutions/">E-Mobility</Link></li>
+//                 <li><Link href="https://vnt.in/fire-and-safety-solutions/">Fire & Safety</Link></li>
+//               </ul>
+//             </div>
+//           </div>
+//         </div>
+//       )}
+
+//       {set2 && (
+//         <div className="container4_NAV">
+//           <div className="row4_NAV">
+//             <div className="col5_NAV">
+//               <ul>
+//                 <li><Link href="https://vnt.in/Solutions/solar-products/">Solar</Link></li>
+//                 <li><Link href="https://vnt.in/Solutions/telecom-products/">Telecom</Link></li>
+//                 <li><Link href="https://vnt.in/Solutions/e-mobility-products/">E-Mobility</Link></li>
+//                 <li><Link href="https://vnt.in/Solutions/fire-safety-products/">Fire & Safety</Link></li>
+//               </ul>
+//             </div>
+//           </div>
+//         </div>
+//       )}
+//     </>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import "../Styles/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faAngleUp, faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
-  const [set, togSet] = useState(false);
-  const [set1, togSet1] = useState(false);
-  const [set2, togSet2] = useState(false);
-  const [showNav, setShowNav] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  const aboutRef = useRef(null);
-  const solutionsRef = useRef(null);
-  const productsRef = useRef(null);
-
-  const toggleDropdown = (dropdown) => {
-    if (dropdown === "about") {
-      togSet(!set);
-      togSet1(false);
-      togSet2(false);
-    } else if (dropdown === "solutions") {
-      togSet1(!set1);
-      togSet(false);
-      togSet2(false);
-    } else if (dropdown === "products") {
-      togSet2(!set2);
-      togSet(false);
-      togSet1(false);
-    }
-  };
-
-  const controlNavbar = () => {
-    if (window.scrollY < lastScrollY) setShowNav(true);
-    else setShowNav(false);
-    setLastScrollY(window.scrollY);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => window.removeEventListener("scroll", controlNavbar);
-  }, [lastScrollY]);
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        (set && aboutRef.current && !aboutRef.current.contains(event.target)) ||
-        (set1 && solutionsRef.current && !solutionsRef.current.contains(event.target)) ||
-        (set2 && productsRef.current && !productsRef.current.contains(event.target))
-      ) {
-        togSet(false);
-        togSet1(false);
-        togSet2(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [set, set1, set2]);
-
   return (
-    <>
-      {/* Navbar */}
-      <div
-        className="container1_Nav"
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 9999,
-          transition: "transform 0.3s ease-in-out",
-          transform: showNav ? "translateY(0)" : "translateY(-100%)",
-          backgroundColor: "rgba(127, 127, 127, 0.9)",
-          backdropFilter: "blur(10px)",
-          WebkitBackdropFilter: "blur(10px)",
-        }}
-      >
-        <div className="row1_Nav">
-          <div className="col2_Nav">
-            <div className="mobileHamburger" onClick={() => setMobileMenu(!mobileMenu)}>
-              <FontAwesomeIcon icon={mobileMenu ? faX : faBars} size="lg" />
-            </div>
+    <header className="navWrapper">
+      <div className="navContainer">
+        <div className="logo">
+          <Link href="/">
+            <Image src="/Images/iventior.png" alt="logo" width={130} height={40} />
+          </Link>
+        </div>
 
-            <ul className={mobileMenu ? "navMenu active" : "navMenu"}>
-              <li><Link href="/">HOME</Link></li>
-              <li><Link href="https://vnt.in/vnt-cleanwatts/">VNT CLEANWATTS</Link></li>
+        <nav className={mobileMenu ? "navMenu active" : "navMenu"}>
+          <ul>
+            <li>
+              <Link href="https://vnt.in/">Home</Link>
+            </li>
+            <li>
+              <Link href="https://vnt.in/vnt-cleanwatts/">Vnt Cleanwatts</Link>
+            </li>
+            <li>
+              <Link href="https://vnt.in/services/">Services</Link>
+            </li>
+            <li>
+              <Link href="https://vnt.in/contact-us/">Contact Us</Link>
+            </li>
+          </ul>
+        </nav>
 
-              <li ref={aboutRef} onClick={() => toggleDropdown("about")} style={{ cursor: "pointer" }}>
-                ABOUT US {set ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
-              </li>
-
-              <li ref={solutionsRef} onClick={() => toggleDropdown("solutions")} style={{ cursor: "pointer" }}>
-                SOLUTIONS {set1 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
-              </li>
-
-              <li ref={productsRef} onClick={() => toggleDropdown("products")} style={{ cursor: "pointer" }}>
-                PRODUCTS {set2 ? <FontAwesomeIcon icon={faAngleUp} /> : <FontAwesomeIcon icon={faAngleDown} />}
-              </li>
-
-              <li><Link href="https://vnt.in/services/">SERVICES</Link></li>
-              <li><Link href="https://vnt.in/contact-us/">CONTACT US</Link></li>
-            </ul>
-          </div>
+        <div className="hamburger" onClick={() => setMobileMenu(!mobileMenu)}>
+          <FontAwesomeIcon icon={mobileMenu ? faX : faBars} />
         </div>
       </div>
-
-      {/* Dropdowns */}
-      {set && (
-        <div className="container2_NAV">
-          <div className="row2_NAV">
-            <div className="col3_NAV">
-              <ul>
-                <li><Link href="https://vnt.in/company-profile/">Company Profile</Link></li>
-                <li><Link href="https://vnt.in/history/">Company History</Link></li>
-                <li><Link href="https://vnt.in/leadership/">Leadership</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {set1 && (
-        <div className="container3_NAV">
-          <div className="row3_NAV">
-            <div className="col4_NAV">
-              <ul>
-                <li><Link href="https://vnt.in/solar-solutions/">Solar</Link></li>
-                <li><Link href="https://vnt.in/energy-management-solutions/">Energy Management</Link></li>
-                <li><Link href="https://vnt.in/telecom-solutions/">Telecom</Link></li>
-                <li><Link href="https://vnt.in/e-mobility-solutions/">E-Mobility</Link></li>
-                <li><Link href="https://vnt.in/fire-and-safety-solutions/">Fire & Safety</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {set2 && (
-        <div className="container4_NAV">
-          <div className="row4_NAV">
-            <div className="col5_NAV">
-              <ul>
-                <li><Link href="https://vnt.in/Solutions/solar-products/">Solar</Link></li>
-                <li><Link href="https://vnt.in/Solutions/telecom-products/">Telecom</Link></li>
-                <li><Link href="https://vnt.in/Solutions/e-mobility-products/">E-Mobility</Link></li>
-                <li><Link href="https://vnt.in/Solutions/fire-safety-products/">Fire & Safety</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
+    </header>
   );
 }
